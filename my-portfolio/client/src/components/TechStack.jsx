@@ -9,7 +9,7 @@ import MongoDB from "../images/tech-stack/mongoDB.webp";
 
 const TechStack = () => {
   return (
-    <div className="grid gap-x-5 grid-cols-8 row-start-3 lg:col-start-3 lg:col-end-6 mt-3 p-5">
+    <div className="grid gap-x-5 grid-cols-4 grid-rows-2 sm:grid-cols-8 sm:row-start-3 lg:col-start-3 lg:col-end-6 mt-3 p-5">
       <img className="p-1" src={HTML} alt="html" />
       <img className="p-1" src={CSS} alt="css" />
       <img className="p-1" src={JavaScript} alt="javascript" />
