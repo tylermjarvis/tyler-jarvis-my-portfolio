@@ -4,7 +4,7 @@ import JavaScript from "../images/tech-stack/javascript.png";
 import ReactImage from "../images/tech-stack/react.png";
 import Jest from "../images/tech-stack/jest.png";
 import NodeJS from "../images/tech-stack/nodejs.png";
-import Docker from "../images/tech-stack/docker.png";
+import Docker from "../images/tech-stack/docker.webp";
 import MongoDB from "../images/tech-stack/mongoDB.webp";
 
 const TechStack = () => {
