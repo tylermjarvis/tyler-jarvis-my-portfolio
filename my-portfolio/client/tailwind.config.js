@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         "press-start": ['"Passion One"', "cursive"],
+        title: ["Infinity", "cursive"],
       },
     },
   },
