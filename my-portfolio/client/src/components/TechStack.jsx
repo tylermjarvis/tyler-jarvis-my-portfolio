@@ -9,15 +9,43 @@ import MongoDB from "../images/tech-stack/mongoDB.webp";
 
 const TechStack = () => {
   return (
-    <div className="grid gap-x-5 grid-cols-4 grid-rows-2 sm:grid-cols-8 sm:row-start-3 lg:col-start-3 lg:col-end-6 mt-3 p-5">
-      <img className="p-1" src={HTML} alt="html" />
-      <img className="p-1" src={CSS} alt="css" />
-      <img className="p-1" src={JavaScript} alt="javascript" />
-      <img className="p-1" src={ReactImage} alt="react" />
-      <img className="p-1" src={Jest} alt="jest" />
-      <img className="p-1" src={NodeJS} alt="node js" />
-      <img className="p-1" src={Docker} alt="docker" />
-      <img className="p-1" src={MongoDB} alt="mongoDB" />
+    <div className="flex flex-row flex-wrap sm:row-start-3 lg:col-start-3 lg:col-end-6 sm:mt-3 sm:p-5">
+      <img
+        className="p-1 w-10 h-10 ml-3 sm:w-14 sm:h-14"
+        src={HTML}
+        alt="html"
+      />
+      <img className="p-1 w-10 h-10 ml-3 sm:w-14 sm:h-14" src={CSS} alt="css" />
+      <img
+        className="p-1 w-10 h-10 ml-3 sm:w-14 sm:h-14"
+        src={JavaScript}
+        alt="javascript"
+      />
+      <img
+        className="p-1 w-10 h-10 ml-3 sm:w-14 sm:h-14"
+        src={ReactImage}
+        alt="react"
+      />
+      <img
+        className="p-1 w-10 h-10 ml-3 sm:w-14 sm:h-14"
+        src={Jest}
+        alt="jest"
+      />
+      <img
+        className="p-1 w-10 h-8 ml-3 sm:w-16 sm:h-12"
+        src={NodeJS}
+        alt="node js"
+      />
+      <img
+        className="p-1 w-10 h-10 ml-3 sm:w-14 sm:h-14"
+        src={Docker}
+        alt="docker"
+      />
+      <img
+        className="p-1 w-11 h-11 ml-3 sm:w-16 sm:h-16"
+        src={MongoDB}
+        alt="mongoDB"
+      />
     </div>
   );
 };
