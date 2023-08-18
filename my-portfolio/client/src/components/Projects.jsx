@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-// import ProjectImage from "../images/projects-full-in-image.webp";
 import LongImage from "../images/long-image.jpeg";
 
 const Projects = () => {
@@ -22,7 +21,7 @@ const Projects = () => {
                     Project 1
                   </h2>
                 </div>
-                <div className="flex flex-row bg-slate-100 bg-opacity-70 p-2 rounded-md text-neutral-700">
+                <div className="flex flex-row bg-blue-gray-50 bg-opacity-70 p-2 rounded-md text-gray-800">
                   <p className="sm:px-4 text-sm sm:text-base bottom-6">
                     After Effects
                   </p>
@@ -36,7 +35,7 @@ const Projects = () => {
 
           <div className="p-2 text-center hover:scale-105 transition duration-500 cursor-pointer object-cover filter hover:brightness-95">
             <figure className="relative max-w-sm drop-shadow-md">
-              <Link to="/projects/1" className="">
+              <Link to="/projects/2" className="">
                 <img
                   className="rounded-lg h-72 sm:h-96 transition duration-500 cursor-pointer object-cover filter hover:brightness-75"
                   src={LongImage}
@@ -49,7 +48,7 @@ const Projects = () => {
                     Project 2
                   </h2>
                 </div>
-                <div className="flex flex-row bg-slate-100 bg-opacity-70 p-2 rounded-md text-neutral-700">
+                <div className="flex flex-row bg-blue-gray-50 bg-opacity-70 p-2 rounded-md text-gray-900">
                   <p className="sm:px-4 text-sm sm:text-base bottom-6">
                     After Effects
                   </p>
@@ -63,7 +62,7 @@ const Projects = () => {
 
           <div className="p-2 text-center hover:scale-105 transition duration-500 cursor-pointer object-cover filter hover:brightness-95">
             <figure className="relative max-w-sm drop-shadow-md">
-              <Link to="/projects/1" className="">
+              <Link to="/projects/3" className="">
                 <img
                   className="rounded-lg h-72 sm:h-96 transition duration-500 cursor-pointer object-cover filter hover:brightness-75"
                   src={LongImage}
@@ -76,7 +75,7 @@ const Projects = () => {
                     Project 3
                   </h2>
                 </div>
-                <div className="flex flex-row bg-slate-100 bg-opacity-70 p-2 rounded-md text-neutral-700">
+                <div className="flex flex-row bg-blue-gray-50 bg-opacity-70 p-2 rounded-md text-gray-800">
                   <p className="sm:px-4 text-sm sm:text-base bottom-6">
                     After Effects
                   </p>
@@ -90,7 +89,7 @@ const Projects = () => {
 
           <div className="p-2 text-center hover:scale-105 transition duration-500 cursor-pointer object-cover filter hover:brightness-95">
             <figure className="relative max-w-sm drop-shadow-md">
-              <Link to="/projects/1" className="">
+              <Link to="/projects/4" className="">
                 <img
                   className="rounded-lg h-72 sm:h-96 transition duration-500 cursor-pointer object-cover filter hover:brightness-75"
                   src={LongImage}
@@ -103,7 +102,7 @@ const Projects = () => {
                     Project 4
                   </h2>
                 </div>
-                <div className="flex flex-row bg-slate-100 bg-opacity-70 p-2 rounded-md text-neutral-700">
+                <div className="flex flex-row bg-blue-gray-50 bg-opacity-70 p-2 rounded-md text-gray-800">
                   <p className="sm:px-4 text-sm sm:text-base bottom-6">
                     After Effects
                   </p>
@@ -117,7 +116,7 @@ const Projects = () => {
 
           <div className="p-2 text-center hover:scale-105 transition duration-500 cursor-pointer object-cover filter hover:brightness-95">
             <figure className="relative max-w-sm drop-shadow-md">
-              <Link to="/projects/1" className="">
+              <Link to="/projects/5" className="">
                 <img
                   className="rounded-lg h-72 sm:h-96 transition duration-500 cursor-pointer object-cover filter hover:brightness-75"
                   src={LongImage}
@@ -130,7 +129,7 @@ const Projects = () => {
                     Project 5
                   </h2>
                 </div>
-                <div className="flex flex-row bg-slate-100 bg-opacity-70 p-2 rounded-md text-neutral-700">
+                <div className="flex flex-row bg-blue-gray-50 bg-opacity-70 p-2 rounded-md text-gray-800">
                   <p className="sm:px-4 text-sm sm:text-base bottom-6">
                     After Effects
                   </p>

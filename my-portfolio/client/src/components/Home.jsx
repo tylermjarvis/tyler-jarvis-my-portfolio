@@ -8,9 +8,9 @@ const Home = () => {
       <header>
         <NavBar />
       </header>
-      <div className="bg-white p-8">
+      <div className="bg-white p-5 sm:p-8">
         <div className="p-5 grid gap-x-2 sm:grid-cols-1 sm:grid-rows-1 xs:grid-cols-1 xs:grid-rows-1 lg:grid-cols-6 lg:grid-rows-3 sm:mt-8">
-          <h1 className="lg:col-start-2 lg:col-end-4 mb-3 xs:mr-0 lg:ml-6 sm:text-8xl text-5xl font-title text-neutral-700 self-end">
+          <h1 className="lg:col-start-2 lg:col-end-5 mb-3 xs:mr-0 lg:ml-6 sm:text-8xl text-5xl font-title text-gray-800 self-end">
             Tyler Jarvis
           </h1>
           <p className="xs:mr-0 lg:col-start-3 lg:col-end-6 lg:mr-8 text-neutral-500 sm:text-base text-xs justify-self-center border-t-2 border-l-4 border-teal-500 p-5">
@@ -27,7 +27,7 @@ const Home = () => {
         <div className="flex items-center py-4">
           <div className="flex-grow h-0.5 bg-teal-500"></div>
 
-          <span className="flex-shrink text-4xl text-neutral-700 px-4 font-title">
+          <span className="flex-shrink text-4xl text-gray-800 px-4 font-title">
             Projects
           </span>
 

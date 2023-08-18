@@ -10,7 +10,7 @@ import Project from "./components/Project";
 function App() {
   return (
     <>
-      <div className="bg-cover p-10 bg-[url(./images/portfolio-background-bird-of-paradise-light-blue.jpg)] bg-no-repeat">
+      <div className="object-fill sm:p-10 p-6 pt-8 pb-8 bg-[url(./images/portfolio-background-bird-of-paradise-light-blue-object-fit.jpg)] bg-repeat">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about-me" element={<AboutMe />} />
