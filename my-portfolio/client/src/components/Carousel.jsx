@@ -5,6 +5,7 @@ const ProjectCarousel = () => {
   return (
     <Carousel
       className="rounded-lg"
+      transition={{ duration: 2 }}
       navigation={({ setActiveIndex, activeIndex, length }) => (
         <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">
           {new Array(length).fill("").map((_, i) => (
@@ -27,7 +28,7 @@ const ProjectCarousel = () => {
       <img
         src={ProjectImageOne}
         alt="Image of project 2"
-        className="h-full w-full object cover"
+        className="sm:h-full max-h-96 w-full object cover"
       />
       <img
         src={ProjectImageOne}

@@ -19,10 +19,7 @@ const SocialBar = () => {
           </Link>
         </li>
         <li className="mb-5 sm:mb-3">
-          <Link
-            to="http://www.linkedin.com/in/tyler-michael-jarvis"
-            target="_blank"
-          >
+          <Link to="http://www.linkedin.com/in/tylermjarvis" target="_blank">
             {/* Linkedin */}
             <svg
               xmlns="http://www.w3.org/2000/svg"

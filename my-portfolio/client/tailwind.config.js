@@ -10,6 +10,9 @@ export default withMT({
         title: ["Infinity", "cursive"],
       },
     },
+    colors: {
+      ivory: "#FFFFF0",
+    },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/aspect-ratio")],
 });

@@ -62,7 +62,7 @@ const TechStack = () => {
         </li>
         <li className="">
           <img
-            className="p-1 w-11 h-11 ml-3 sm:w-16 sm:h-16"
+            className="p-1 w-11 h-12 ml-3 sm:w-16 sm:h-16"
             src={MongoDB}
             alt="mongoDB"
           />

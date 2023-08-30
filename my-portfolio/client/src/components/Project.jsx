@@ -15,7 +15,7 @@ const Project = () => {
           <h1 className="lg:col-start-2 lg:col-end-4 mb-6 xs:mr-0 lg:ml-6 sm:text-8xl text-5xl font-title text-gray-800 self-end">
             Project {id}
           </h1>
-          <p className="xs:mr-0 lg:col-start-3 lg:col-end-6 lg:mr-8 text-neutral-500 sm:text-base text-xs justify-self-center border-t-2 border-l-4 border-teal-500 p-5">
+          <p className="xs:mr-0 lg:col-start-3 lg:col-end-6 lg:mr-8 text-gray-600 text-base justify-self-center border-t-2 border-l-4 border-teal-500 border-opacity-80 p-5">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a
             risus id velit finibus feugiat. Duis luctus non ligula nec interdum.
             Nam eget neque tincidunt, dapibus nulla a, aliquet lorem. Quisque
@@ -27,21 +27,39 @@ const Project = () => {
           <SoftwareAndLinks />
         </div>
 
-        <div className="md:p-10 sm:mb-2 mb-5">
+        <div className="md:p-10 md:pl-16 md:pr-16 sm:mb-2 mb-5">
           <ProjectCarousel />
         </div>
 
-        <div className="p-2 text-center">
-          <button className="hover:scale-105 transition duration-500 cursor-pointer">
-            <Link
-              to="/"
-              className="text-neutral-500 hover:text-cyan-600 sm:text-lg text-base"
-            >
-              <span className="font-extrabold">· </span>Other Projects
-              <span className="font-extrabold"> ·</span>
+        {/* <div className="aspect-w-16 aspect-h-9">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/VrQwxp3KMuU"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div> */}
+
+        <div className="text-center sm:mb-3">
+          <Link to="/" className="text-ivory sm:text-lg text-base">
+            <button className="bg-teal-500 hover:bg-teal-200 font-bold p-2 rounded-md border-2 border-gray-600 drop-shadow-md">
+              Other Projects
+            </button>
+          </Link>
+        </div>
+
+        {/* 
+        Different styled button
+        <div className="text-center mb-3">
+          <button className="bg-white hover:bg-blue-gray-100 font-bold p-2 border-2 border-deep-orange-200 border-opacity-80 shadow-sm">
+            <Link to="/" className="text-gray-700 sm:text-lg text-base">
+              Other Projects
             </Link>
           </button>
-        </div>
+        </div> */}
       </div>
     </div>
   );
