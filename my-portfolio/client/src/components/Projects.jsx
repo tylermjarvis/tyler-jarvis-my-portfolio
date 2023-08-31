@@ -110,7 +110,7 @@ const Projects = () => {
                     After Effects
                   </p>
                   <p className="sm:px-4 text-sm sm:text-base bottom-6">
-                    Premiere Pro
+                    {t("PremierePro.1")}
                   </p>
                 </div>
               </figcaption>
@@ -137,7 +137,7 @@ const Projects = () => {
                     After Effects
                   </p>
                   <p className="sm:px-4 text-sm sm:text-base bottom-6">
-                    Premiere Pro
+                    {t("PremierePro.1")}
                   </p>
                 </div>
               </figcaption>

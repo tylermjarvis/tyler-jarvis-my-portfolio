@@ -2,21 +2,11 @@ import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 const NavBar = () => {
-  const { i18n, t } = useTranslation();
-  const [langButton, setLangButton] = useState("French");
+  const { t } = useTranslation();
   const [open, setOpen] = useState(false);
-
-  const handleClick = () => {
-    if (langButton === "French") {
-      i18n.changeLanguage("fr");
-      setLangButton("English");
-    } else {
-      i18n.changeLanguage("en");
-      setLangButton("French");
-    }
-  };
 
   const handleMenu = () => {
     setOpen((prev) => !prev);
@@ -27,11 +17,8 @@ const NavBar = () => {
       <div className="hidden md:block">
         <ul className="text-center inline-grid gap-x-2 grid-cols-3 mr-10 text-gray-600">
           <li className="p-2">
-            <button
-              className="hover:text-cyan-600"
-              onClick={() => handleClick()}
-            >
-              {langButton}
+            <button className="hover:text-cyan-600">
+              <LanguageSwitcher />
             </button>
           </li>
           <li className="p-2 border-l-2 border-teal-500 border-opacity-80">
@@ -48,11 +35,8 @@ const NavBar = () => {
       </div>
       {/* Hamburger Button */}
       <div className="ml-2 grid grid-cols-2 md:hidden">
-        <button
-          className="text-gray-600 hover:text-cyan-600 justify-self-start ml-2"
-          onClick={() => handleClick()}
-        >
-          {langButton}
+        <button className="text-gray-600 hover:text-cyan-600 justify-self-start ml-2">
+          <LanguageSwitcher />
         </button>
         <button
           type="button"

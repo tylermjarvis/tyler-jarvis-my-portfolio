@@ -1,32 +1,42 @@
 import i18n from "i18next";
-import { reactI18nextModule } from "react-i18next";
-import LanguageDetector from "i18next-browser-languagedetector";
 import { initReactI18next } from "react-i18next";
 
-import translationEN from "../public/locals/en/translationEN.json";
-import translationFR from "../public/locals/fr/translationFR.json";
+import Backend from "i18next-http-backend";
+import LanguageDetector from "i18next-browser-languagedetector";
 
-// const fallbackLng = ["en"];
-// const availableLanguage = ["fr"];
+import translationEN from "./public/locales/en/translationEN.json";
+import translationFR from "./public/locales/fr/translationFR.json";
 
 // the translations
-const languages = [translationEN, translationFR];
+const resources = {
+  en: {
+    translation: translationEN,
+  },
+  fr: {
+    translation: translationFR,
+  },
+};
 
 i18n
-  .use(LanguageDetector) // detect user language
-
-  .use(initReactI18next) // pass the i18n instance to react-i18next.
-
-  .use(reactI18nextModule) // passes i18n down to react-i18next
+  // load translation using http -> see /public/locales (i.e. https://github.com/i18next/react-i18next/tree/master/example/react/public/locales)
+  // learn more: https://github.com/i18next/i18next-http-backend
+  // want your translations to be loaded from a professional CDN? => https://github.com/locize/react-tutorial#step-2---use-the-locize-cdn
+  .use(Backend)
+  // detect user language
+  // learn more: https://github.com/i18next/i18next-browser-languageDetector
+  .use(LanguageDetector)
+  // pass the i18n instance to react-i18next.
+  .use(initReactI18next)
+  // init i18next
+  // for all options read: https://www.i18next.com/overview/configuration-options
   .init({
     fallbackLng: "en",
     debug: true,
-    whitelist: languages,
-
-    keySeparator: false, // we do not use keys in form messages.welcome
+    resources,
+    lng: "en",
 
     interpolation: {
-      escapeValue: false, // react already safes from xss
+      escapeValue: false, // not needed for react as it escapes by default
     },
   });
 
