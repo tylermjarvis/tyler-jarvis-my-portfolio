@@ -1,15 +1,15 @@
 {
   "Intro": {
-    "1": "I have chosen a Web Development career, because of my passion for design and online customer and business relations. I am also a Communication graduate, which has led to an interest in the interactions of day to day life and how businesses are developing to adjust to these day to day interactions."
+    "1": "I am currently studying Full Stack Development. I would like to delve more into the front-end, as I enjoy the creative side of creating an appealing and unique browser, as well as the challenges and rewards that come from communicating with customers. I enjoy creating React projects with a MERN Stack, teaching myself Shopify, with my customised Shopify site and working on my Unity game using C#."
   },
   "AboutMe": {
-    "1": "I have chosen a Web Development career, because of my passion for design and online customer and business relations. I am also a Communication graduate, which has led to an interest in the interactions of day to day life and how businesses are developing to adjust to these day to day interactions."
+    "1": "I have a Bachelor of Communications, majoring in Digital Media and minoring in Advertising. I first started working in Marketing and Customer Service, but have recently been travelling the world working in Australia at a resort and a cattle station. I also worked on a super yacht in the Mediterranean Sea and was the House Manager at a private estate in Guernsey. I am very good at adapting to new situation and environments and am familiar withn a change in scenery. I have decided to come back to my Digital Media background and add to my skills of Web Development. When I am not coding, I am delving into the French language and keeping the time on the drums."
   },
   "Projects": {
     "1": "Projects"
   },
   "Project": {
-    "1": "Project 1",
+    "1": "Restaurant Reservation App",
     "2": "Project 2",
     "3": "Project 3",
     "4": "Project 4",
@@ -19,8 +19,8 @@
     "1": "Home",
     "2": "About Me"
   },
-  "PremierePro": {
-    "1": "Premiere Pro"
+  "LanguagesAndSoftware": {
+    "1": "MERN Stack"
   },
   "Spotify": {
     "1": "Here's a taste of the music I enjoy!"

@@ -15,7 +15,7 @@ const Home = () => {
         <NavBar />
       </header>
       <div className="bg-white p-5 sm:p-8">
-        <div className="p-5 pt-0 grid gap-x-2 sm:grid-cols-1 sm:grid-rows-1 xs:grid-cols-1 xs:grid-rows-1 lg:grid-cols-6 lg:grid-rows-3 sm:mt-8">
+        <div className="p-5 pt-0 grid gap-x-2 sm:grid-cols-1 sm:grid-rows-1 xs:grid-cols-1 xs:grid-rows-1 lg:grid-cols-6 lg:grid-rows-2 sm:mt-8">
           <h1 className="lg:col-start-2 lg:col-end-5 mb-3 xs:mr-0 lg:ml-6 sm:text-8xl text-5xl font-title text-gray-800 self-end">
             Tyler Jarvis
           </h1>

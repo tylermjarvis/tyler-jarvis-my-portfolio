@@ -1,15 +1,15 @@
 {
   "Intro": {
-    "1": "J'ai choisi une carrière en développement Web, en raison de ma passion pour conception et relations clients et entreprises en ligne. je suis aussi un Diplômée en communication, ce qui l'a amené à s'intéresser à la interactions de la vie quotidienne et comment les entreprises se développent pour s'adapter à ces interactions quotidiennes."
+    "1": "J'étudie actuellement le développement Full Stack. J'aimerais approfondir davantage le front-end, car j'apprécie le côté créatif de la création d'un navigateur attrayant et unique, ainsi que les défis et les récompenses qui découlent de la communication avec les clients. J'aime créer des projets React avec une pile MERN, apprendre moi-même Shopify, avec mon site Shopify personnalisé et travailler sur mon jeu Unity en C#."
   },
   "AboutMe": {
-    "1": "J'ai choisi une carrière en développement Web, en raison de ma passion pour conception et relations clients et entreprises en ligne. je suis aussi un Diplômée en communication, ce qui l'a amené à s'intéresser à la interactions de la vie quotidienne et comment les entreprises se développent pour s'adapter à ces interactions quotidiennes."
+    "1": "J'ai un baccalauréat en communications, avec spécialisation en médias numériques et mineure en publicité. J'ai d'abord travaillé dans le marketing et le service client, mais j'ai récemment voyagé à travers le monde en travaillant en Australie dans un complexe hôtelier et une ferme d'élevage. J'ai également travaillé sur un super yacht en mer Méditerranée et j'ai été directeur de maison dans un domaine privé à Guernesey. Je sais très bien m'adapter à de nouvelles situations et environnements et je suis familier avec le changement de décor. J'ai décidé de revenir à mon expérience en médias numériques et d'ajouter à mes compétences en développement Web. Quand je ne code pas, je me plonge dans la langue française et je mesure le rythme à la batterie."
   },
   "Projects": {
     "1": "Projets"
   },
   "Project": {
-    "1": "Projet 1",
+    "1": "App de réservation de restaurant",
     "2": "Projet 2",
     "3": "Projet 3",
     "4": "Projet 4",
@@ -19,8 +19,8 @@
     "1": "Accueil",
     "2": "À Propos De Moi"
   },
-  "PremierePro": {
-    "1": "Première Pro"
+  "LanguagesAndSoftware": {
+    "1": "Pile MERN"
   },
   "Spotify": {
     "1": "Voici un avant-goût de la musique que j'apprécie!"
