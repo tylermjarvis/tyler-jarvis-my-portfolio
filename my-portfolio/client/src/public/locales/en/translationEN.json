@@ -10,17 +10,24 @@
   },
   "Project": {
     "1": "Restaurant Reservation App",
-    "2": "Project 2",
-    "3": "Project 3",
-    "4": "Project 4",
-    "5": "Project 5"
+    "2": "Bootstrap Website",
+    "3": "React Website",
+    "4": "ChatBot",
+    "5": "Unity Game Mesozoic 3023"
   },
   "NavBar": {
     "1": "Home",
     "2": "About Me"
   },
   "LanguagesAndSoftware": {
-    "1": "MERN Stack"
+    "1": "MERN Stack",
+    "2": "Bootstrap",
+    "3": "React",
+    "4": "Filter & Sort",
+    "5": "JavaScript",
+    "6": "Jest",
+    "7": "C#",
+    "8": "Unity"
   },
   "Spotify": {
     "1": "Here's a taste of the music I enjoy!"

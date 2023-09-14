@@ -10,17 +10,18 @@
   },
   "Project": {
     "1": "App de réservation de restaurant",
-    "2": "Projet 2",
-    "3": "Projet 3",
-    "4": "Projet 4",
-    "5": "Projet 5"
+    "2": "Site Web Bootstrap",
+    "3": "Site Web React",
+    "4": "Agent Conversationnel",
+    "5": "Jeu Unity Mésozoïque 3023"
   },
   "NavBar": {
     "1": "Accueil",
     "2": "À Propos De Moi"
   },
   "LanguagesAndSoftware": {
-    "1": "Pile MERN"
+    "1": "Pile MERN",
+    "4": "Filtrer et Trier"
   },
   "Spotify": {
     "1": "Voici un avant-goût de la musique que j'apprécie!"
