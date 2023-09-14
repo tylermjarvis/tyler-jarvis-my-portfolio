@@ -1,10 +1,25 @@
 import { useParams, Link } from "react-router-dom";
+// import { useState } from "react";
 import NavBar from "./NavBar";
 import SoftwareAndLinks from "./SoftwareAndLinks";
 import ProjectCarousel from "./Carousel";
 
 const Project = () => {
   const { id } = useParams();
+  // const [isId, setIsId] = useState({ id });
+
+  // const handleId = () => {
+  //   if (id === "Reservationizr App") {
+  //     setIsId(
+  //       <p className="xs:mr-0 lg:col-start-3 lg:col-end-6 lg:mr-8 text-gray-600 text-base justify-self-center border-t-2 border-l-4 border-teal-500 border-opacity-80 p-5">
+  //         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a risus
+  //         id velit finibus feugiat. Duis luctus non ligula nec interdum. Nam
+  //         eget neque tincidunt.
+  //       </p>
+  //     );
+  //   }
+  // };
+
   return (
     <div className="container rounded-sm mx-auto drop-shadow-md overflow-hidden mb-4">
       <header>
@@ -13,15 +28,12 @@ const Project = () => {
       <div className="bg-white p-5 sm:p-8">
         <div className="p-5 grid gap-x-2 sm:grid-cols-1 xs:grid-cols-1 lg:grid-cols-6 sm:mt-8">
           <h1 className="lg:col-start-2 lg:col-end-4 mb-6 xs:mr-0 lg:ml-6 sm:text-8xl text-5xl font-title text-gray-800 self-end">
-            Project {id}
+            {id}
           </h1>
           <p className="xs:mr-0 lg:col-start-3 lg:col-end-6 lg:mr-8 text-gray-600 text-base justify-self-center border-t-2 border-l-4 border-teal-500 border-opacity-80 p-5">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a
             risus id velit finibus feugiat. Duis luctus non ligula nec interdum.
-            Nam eget neque tincidunt, dapibus nulla a, aliquet lorem. Quisque
-            cursus tincidunt ornare. Vestibulum venenatis ex eget neque rhoncus,
-            in pretium diam pellentesque. Vestibulum vestibulum consequat
-            sollicitudin. Donec sollicitudin est ac consequat volutpat.
+            Nam eget neque tincidunt.
           </p>
 
           <SoftwareAndLinks />

@@ -159,7 +159,7 @@ const Projects = () => {
 
           {/* Card Example */}
           <div className="block rounded-lg bg-gray-800 bg-opacity-80 hover:scale-105 transition duration-500 cursor-pointer object-cover filter hover:brightness-75">
-            <Link to="/projects/restaurant-reservation-app" className="">
+            <Link to="/projects/Reservationizr App" className="">
               <div className="overflow-hidden bg-cover bg-no-repeat">
                 <img
                   className="rounded-t-lg"
@@ -182,7 +182,7 @@ const Projects = () => {
 
           {/* Card Example */}
           <div className="block rounded-lg bg-gray-800 bg-opacity-80 hover:scale-105 transition duration-500 cursor-pointer object-cover filter hover:brightness-75">
-            <Link to="/projects/bootstrap-project" className="">
+            <Link to="/projects/Boostrap Portfolio" className="">
               <div className="overflow-hidden bg-cover bg-no-repeat">
                 <img
                   className="rounded-t-lg"
@@ -208,7 +208,7 @@ const Projects = () => {
 
           {/* Card Example */}
           <div className="block rounded-lg bg-gray-800 bg-opacity-80 hover:scale-105 transition duration-500 cursor-pointer object-cover filter hover:brightness-75">
-            <Link to="/projects/react-shop-japsnack" className="">
+            <Link to="/projects/Jap Snack" className="">
               <div className="overflow-hidden bg-cover bg-no-repeat">
                 <img
                   className="rounded-t-lg"
@@ -234,7 +234,7 @@ const Projects = () => {
 
           {/* Card Example */}
           <div className="block rounded-lg bg-gray-800 bg-opacity-80 hover:scale-105 transition duration-500 cursor-pointer object-cover filter hover:brightness-75">
-            <Link to="/projects/chatbot-adrenaline-bot" className="">
+            <Link to="/projects/Adrenaline Bot" className="">
               <div className="overflow-hidden bg-cover bg-no-repeat">
                 <img
                   className="rounded-t-lg"
@@ -260,7 +260,7 @@ const Projects = () => {
 
           {/* Card Example */}
           <div className="block rounded-lg bg-gray-800 bg-opacity-80 hover:scale-105 transition duration-500 cursor-pointer object-cover filter hover:brightness-75">
-            <Link to="/projects/unity-game-mesozoic-3023" className="">
+            <Link to="/projects/Mesozoic 3023" className="">
               <div className="overflow-hidden bg-cover bg-no-repeat">
                 <img
                   className="rounded-t-lg"
