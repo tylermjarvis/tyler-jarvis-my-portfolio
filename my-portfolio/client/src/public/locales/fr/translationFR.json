@@ -14,7 +14,7 @@
   "Project": {
     "1": "App de réservation de restaurant",
     "2": "Site Web Bootstrap",
-    "3": "Site Web React",
+    "3": "Boutique en ligne React",
     "4": "Agent Conversationnel",
     "5": "Jeu Unity Mésozoïque 3023"
   },
@@ -24,7 +24,9 @@
   },
   "LanguagesAndSoftware": {
     "1": "Pile MERN",
-    "5": "Filtrer et Trier"
+    "5": "Filtrer et Trier",
+    "10": "Grille CSS",
+    "11": "Cinéma 4D"
   },
   "Links": {
     "1": "Démo en Direct"
@@ -33,6 +35,13 @@
     "1": "Voici un avant-goût de la musique que j'apprécie!"
   },
   "ProjectContent": {
-    "1": "Le Reservationizr était le 2ème projet de mon article Server-Side au Developers Institute. Il permet à un utilisateur de se connecter à son compte via Auth0 et de consulter les réservations qu'il a effectuées auprès de restaurants spécifiques. Il utilise React pour le front-end avec les routes protégées d'Auth0 pour filtrer le contenu qu'un utilisateur peut voir selon qu'il est connecté ou non. Il utilise Express.js avec JWT pour les requêtes API GET et POST, ainsi que Node.js comme langage serveur. Ce serveur communique avec une base de données MongoDB Atlas qui stocke les collections de données JSON. À l'avenir, j'aimerais ajouter les requêtes PATCH et DELETE pour donner à l'utilisateur plus de contrôle sur ses réservations."
+    "1": "Le Reservationizr était le 2ème projet de mon article Server-Side au Developers Institute. Il permet à un utilisateur de se connecter à son compte via Auth0 et de consulter les réservations qu'il a effectuées auprès de restaurants spécifiques. Il utilise React pour le front-end avec les routes protégées d'Auth0 pour filtrer le contenu qu'un utilisateur peut voir selon qu'il est connecté ou non. Il utilise Express.js avec JWT pour les requêtes API GET et POST, ainsi que Node.js comme langage serveur. Ce serveur communique avec une base de données MongoDB Atlas qui stocke les collections de données JSON. À l'avenir, j'aimerais ajouter les requêtes PATCH et DELETE pour donner à l'utilisateur plus de contrôle sur ses réservations.",
+    "2": "Ce site Web Bootstrap était ma toute première tentative de création d'un site Web de portfolio, avant d'apprendre React. L'objectif principal était de m'apprendre Bootstrap, tout en utilisant mes connaissances antérieures en HTML, CSS et un peu de JavaScript. J'ai été influencé par la disposition en style grille que l'on voit souvent sur les pages/portefeuilles de photographie. Les grilles d'images dans chaque lien de navigation suivent le style de la page de photographie, où toutes les images sont de tailles différentes, mais elles s'intègrent toujours bien dans un conteneur rectangulaire. Afin de mettre ce projet en ligne, j'ai utilisé React et Vite pour créer une version via le référentiel GitHub.",
+    "3": "Jap Snack était mon troisième projet du document Client-Side au Developers Institute. Il s'agit d'un site Web qui permet à un utilisateur d'acheter des collations japonaises. C'est le premier site Web que j'utilise React. Nous avons utilisé Stripe pour présenter des projets qu'un utilisateur pouvait acheter. Il existe également la possibilité de filtrer les produits par catégorie spécifique et de trier la liste des produits par prix les plus élevés et les plus bas.",
+    "4": "L'Adrenaline Bot était le deuxième projet du document Client-Side. Il utilise des blocs de code conditionnels JavaScript pour vérifier les entrées de l'utilisateur en fonction des options qu'il a données à l'utilisateur. Il utilise des cas extrêmes pour s'assurer qu'il peut fournir la meilleure direction et la meilleure expérience utilisateur possible. Par exemple, si l'utilisateur tape « skydive » lorsqu'il lui est demandé, il lui donnera toujours l'option, comme s'il avait tapé « skydive ». Il stocke également le nom de l'utilisateur qu'il saisit et s'y réfère lors de son interaction avec le Chat Bot.",
+    "5": "Ce projet est ma fierté et ma joie! J'ai suivi un cours C# via Udemy et j'ai décidé de tester ce langage via Unity. J'ai suivi le tutoriel HexMap de CatLikeCoding pour générer un seul plan dans Unity qui se transforme en une carte de tuiles. Cette carte de tuiles peut être personnalisée par le joueur, mais à long terme, j'aimerais qu'elle génère une carte au réveil de cette scène. Pour le moment, nous avons une forme à la place d'une unité qu'un joueur peut contrôler et déplacer en utilisant la recherche de chemin A* pour déterminer le chemin le plus court à parcourir. À long terme, j'aimerais en faire un jeu similaire à Jurassic World Alive, mais avec un système de combat de style XCOM."
+  },
+  "OtherProjects": {
+    "1": "Autres Projets"
   }
 }

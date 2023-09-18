@@ -14,7 +14,7 @@
   "Project": {
     "1": "Restaurant Reservation App",
     "2": "Bootstrap Website",
-    "3": "React Website",
+    "3": "React Online Shop",
     "4": "ChatBot",
     "5": "Unity Game Mesozoic 3023"
   },
@@ -31,7 +31,9 @@
     "6": "JavaScript",
     "7": "Jest",
     "8": "C#",
-    "9": "Unity"
+    "9": "Unity",
+    "10": "CSS Grid",
+    "11": "Cinema 4D"
   },
   "Links": {
     "1": "Live Demo"
@@ -40,6 +42,13 @@
     "1": "Here's a taste of the music I enjoy!"
   },
   "ProjectContent": {
-    "1": "The Reservationizr was the 2nd project of my Server-Side paper at the Developers Institute. It allows a user to log in to their account via Auth0 and view the reservations that they have made with specific restaurants. It uses React for the front end with Auth0's protected routes to filter out what content a user can see based on whether they are logged in or not. It is using Express.js along with JWT's for the GET and POST API requests, along with Node.js as the server language. This server is talking to a MongoDB Atlas database which stores the JSON data collections. In the future, I would like to add PATCH and DELETE requests to give the user more control over thier reservations."
+    "1": "The Reservationizr was the 2nd project of my Server-Side paper at the Developers Institute. It allows a user to log in to their account via Auth0 and view the reservations that they have made with specific restaurants. It uses React for the front end with Auth0's protected routes to filter out what content a user can see based on whether they are logged in or not. It is using Express.js along with JWT's for the GET and POST API requests, along with Node.js as the server language. This server is talking to a MongoDB Atlas database which stores the JSON data collections. In the future, I would like to add PATCH and DELETE requests to give the user more control over thier reservations.",
+    "2": "This Bootstrap website was my very first attempt at a portfolio website, before I had learnt React. It's core focus was to teach me Bootstrap, whilst using my previous knowledge of HTML, CSS and some JavaScript. I was influenced by the grid style layout that you often see on photography pages/portfolios. The image grids within each nav-link follow the photography page style, where all images are different sizes, however they still fit nicely within a rectangle container. In order to push this project live, I used React and Vite to create a build through the GitHub repository.",
+    "3": "Jap Snack was my third project of the Client-Side paper at the Developers Institute. It is a website that allows a user to purchase Japanese Snacks. It is the first website that I have used React. We used Stripe to feature projects that a user could purchase. There is also the ability to filter products by specific category and sort the list of products by the highest and lowest prices.",
+    "4": "The Adrenaline Bot was the second project of the Client-Side paper. It uses JavaScript conditional blocks of code to check user input based on the options that it has given to the user. It uses edge cases to make sure that it can provide the best direction and user experience possible. For example, if the user types 'skydive' when requested, it will still give them the option, as if they typed 'sky dive'. It also stores the user's name that they enter and refers to them during their interaction with the Chat Bot.",
+    "5": "This project is my pride and joy! I took a C# course through Udemy and have decided to put that language to the test through Unity. I have followed the HexMap tutorial by CatLikeCoding to generate a single plane in Unity which morphs into a tile map. This tile map can be customized by the player, however long term I would like it to generate a map upon the awakening of that scene. At the moment a have a shape in place of a unit that a player can control and move using A* pathfinding to determine the shortest route to travel. Long term I would like to turn this into a game similar to Jurassic World Alive, but with an XCOM styled battle system."
+  },
+  "OtherProjects": {
+    "1": "Other Projects"
   }
 }

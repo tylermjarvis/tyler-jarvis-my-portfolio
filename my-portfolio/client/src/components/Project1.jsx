@@ -150,22 +150,22 @@ const Project = () => {
           >
             <img
               src={ProjectOneImageOne}
-              alt="Image of project 1"
+              alt="Image of project - homepage/restaurant page"
               className="h-full w-full object cover"
             />
             <img
               src={ProjectOneImageTwo}
-              alt="Image of project 2"
+              alt="Image of project - Auth0 login page"
               className="h-full w-full object cover"
             />
             <img
               src={ProjectOneImageThree}
-              alt="Image of project 3"
+              alt="Image of project - Create a reservation page"
               className="h-full w-full object cover"
             />
             <img
               src={ProjectOneImageFour}
-              alt="Image of project 4"
+              alt="Image of project - List of user reservations"
               className="h-full w-full object cover"
             />
           </Carousel>
@@ -186,7 +186,7 @@ const Project = () => {
         <div className="text-center sm:mb-3">
           <Link to="/" className="text-ivory sm:text-lg text-base">
             <button className="bg-teal-500 hover:bg-teal-200 font-bold p-2 rounded-md border-2 border-gray-600 drop-shadow-md">
-              Other Projects
+              {t("OtherProjects.1")}
             </button>
           </Link>
         </div>

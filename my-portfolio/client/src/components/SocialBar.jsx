@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-// import GitHub from "../images/project-page-images/github-white.png";
+import PDF from "../images/Tyler_Jarvis_Tech_CV_2023.pdf";
 
 const SocialBar = () => {
   return (
@@ -64,7 +64,7 @@ const SocialBar = () => {
           </Link>
         </li>
         <li className="">
-          <Link to="" target="_blank">
+          <Link to={PDF} target="_blank">
             {/* PDF */}
             <svg
               className="w-7 h-7 sm:w-8 sm:h-8 fill-ivory hover:fill-cyan-500"

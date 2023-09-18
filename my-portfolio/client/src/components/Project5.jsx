@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
 import NavBar from "./NavBar";
-import Links from "./Links";
-import ProjectCarousel from "./Carousel";
 import { useTranslation } from "react-i18next";
+
+// Images
+import ProjectFiveImageOne from "../images/project-page-images/project-5/mesozoic-3023-project-final-image-size.png";
 
 const Project = () => {
   const { t } = useTranslation();
@@ -18,49 +19,50 @@ const Project = () => {
             {t("Project.5")}
           </h1>
           <p className="xs:mr-0 lg:col-start-3 lg:col-end-6 lg:mr-8 text-gray-600 text-base justify-self-center border-t-2 border-l-4 border-teal-500 border-opacity-80 p-5">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a
-            risus id velit finibus feugiat. Duis luctus non ligula nec interdum.
-            Nam eget neque tincidunt.
+            {t("ProjectContent.5")}
           </p>
 
           <div className="sm:row-start-3 lg:col-start-3 lg:col-end-6 sm:mt-3 ml-6">
             <div className="sm:ml-6 ml-0 sm:text-base text-sm">
               <ul className="flex flex-row flex-wrap sm:gap-8 gap-5 font-bold text-gray-800">
                 <li className="">
-                  <p className="">React</p>
+                  <p className="">{t("LanguagesAndSoftware.8")}</p>
                 </li>
                 <li className="">
-                  <p className="">CSS Grid</p>
+                  <p className="">{t("LanguagesAndSoftware.9")}</p>
                 </li>
                 <li className="">
-                  <p className="">Node.JS</p>
+                  <p className="">{t("LanguagesAndSoftware.11")}</p>
                 </li>
               </ul>
             </div>
-            <Links />
           </div>
         </div>
 
         <div className="md:p-10 md:pl-16 md:pr-16 sm:mb-2 mb-5">
-          <ProjectCarousel />
+          <img
+            src={ProjectFiveImageOne}
+            alt="Image of project - Adrenaline Bot welcome speech"
+            className="h-full w-full object cover"
+          />
         </div>
 
-        {/* <div className="aspect-w-16 aspect-h-9">
+        <div className="aspect-w-16 aspect-h-9 sm:mb-10 mb-6">
           <iframe
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/VrQwxp3KMuU"
+            src="https://www.youtube.com/embed/ikGm7Dg4CcA?si=V-fPfq3ocI0MD5St"
             title="YouTube video player"
-            frameborder="0"
+            // frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
           ></iframe>
-        </div> */}
+        </div>
 
         <div className="text-center sm:mb-3">
           <Link to="/" className="text-ivory sm:text-lg text-base">
             <button className="bg-teal-500 hover:bg-teal-200 font-bold p-2 rounded-md border-2 border-gray-600 drop-shadow-md">
-              Other Projects
+              {t("OtherProjects.1")}
             </button>
           </Link>
         </div>
