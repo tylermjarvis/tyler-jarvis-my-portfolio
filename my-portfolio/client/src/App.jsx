@@ -4,7 +4,11 @@ import Home from "./components/Home";
 import AboutMe from "./components/AboutMe";
 import Footer from "./components/Footer";
 import Projects from "./components/Projects";
-import Project from "./components/Project";
+import Project1 from "./components/Project1";
+import Project2 from "./components/Project2";
+import Project3 from "./components/Project3";
+import Project4 from "./components/Project4";
+import Project5 from "./components/Project5";
 import SocialBar from "./components/SocialBar";
 
 function App() {
@@ -15,7 +19,11 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about-me" element={<AboutMe />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/projects/:id" element={<Project />} />
+          <Route path="/projects/Reservationizr App" element={<Project1 />} />
+          <Route path="/projects/Boostrap Portfolio" element={<Project2 />} />
+          <Route path="/projects/Jap Snack" element={<Project3 />} />
+          <Route path="/projects/Adrenaline Bot" element={<Project4 />} />
+          <Route path="/projects/Mesozoic 3023" element={<Project5 />} />
         </Routes>
 
         <div className="">
