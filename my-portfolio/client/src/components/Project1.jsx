@@ -1,8 +1,17 @@
 import { Link } from "react-router-dom";
 import NavBar from "./NavBar";
-import SoftwareAndLinks from "./SoftwareAndLinks";
-import ProjectCarousel from "./Carousel";
+import { Carousel, IconButton } from "@material-tailwind/react";
 import { useTranslation } from "react-i18next";
+
+// Link Images
+import GitHub from "../images/project-page-images/github-white.png";
+import ExternalLink from "../images/project-page-images/external-link-white.png";
+
+// Images
+import ProjectOneImageOne from "../images/project-page-images/project-1/reservationizr-desktop-homepage.png";
+import ProjectOneImageTwo from "../images/project-page-images/project-1/reservationizr-desktop-auth0.png";
+import ProjectOneImageThree from "../images/project-page-images/project-1/reservationizr-desktop-create-reservation.png";
+import ProjectOneImageFour from "../images/project-page-images/project-1/reservationizr-desktop-reservations.png";
 
 const Project = () => {
   const { t } = useTranslation();
@@ -13,21 +22,153 @@ const Project = () => {
         <NavBar />
       </header>
       <div className="bg-white p-5 sm:p-8">
-        <div className="p-5 grid gap-x-2 sm:grid-cols-1 xs:grid-cols-1 lg:grid-cols-6 sm:mt-8">
+        <div className="p-5 grid gap-2 sm:grid-cols-1 xs:grid-cols-1 lg:grid-cols-6 sm:mt-8">
           <h1 className="lg:col-start-2 lg:col-end-5 mb-6 xs:mr-0 lg:ml-6 sm:text-8xl text-5xl font-title text-gray-800 self-end">
             {t("Project.1")}
           </h1>
           <p className="xs:mr-0 lg:col-start-3 lg:col-end-6 lg:mr-8 text-gray-600 text-base justify-self-center border-t-2 border-l-4 border-teal-500 border-opacity-80 p-5">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a
-            risus id velit finibus feugiat. Duis luctus non ligula nec interdum.
-            Nam eget neque tincidunt.
+            {t("ProjectContent.1")}
           </p>
 
-          <SoftwareAndLinks />
+          <div className="sm:row-start-3 lg:col-start-3 lg:col-end-6 sm:mt-3 ml-6">
+            <div className="sm:ml-6 ml-0 sm:text-base text-sm">
+              <ul className="flex flex-row flex-wrap sm:gap-8 gap-5 font-bold text-gray-800">
+                <li className="">
+                  <p className="">{t("LanguagesAndSoftware.1")}</p>
+                </li>
+                <li className="">
+                  <p className="">Auth0</p>
+                </li>
+                <li className="">
+                  <p className="">Jest</p>
+                </li>
+                <li className="">
+                  <p className="">MongoDB Atlas</p>
+                </li>
+              </ul>
+            </div>
+            <div className="sm:mt-8 mt-4 sm:ml-6 ml-0 sm:text-lg text-sm">
+              <ul className="flex flex-row flex-wrap gap-4 font-bold text-ivory">
+                <li className="">
+                  <Link
+                    to="https://github.com/tylermjarvis/02-project---reservationizr-app-part-2---manage-reservations-tylermjarvis"
+                    className="flex flex-row bg-teal-500 hover:bg-teal-200 sm:px-8 p-2 px-6 rounded-md border-2 border-gray-600 drop-shadow-md"
+                    target="_blank"
+                  >
+                    <p className="">Code</p>
+                    <img
+                      className="p-1 w-5 h-5 sm:w-6 sm:h-6"
+                      src={GitHub}
+                      alt="javascript"
+                    />
+                  </Link>
+                </li>
+                <li className="">
+                  <Link
+                    to="https://react-reservationizr-app.onrender.com"
+                    className="flex flex-row bg-teal-500 hover:bg-teal-200 p-2 rounded-md border-2 border-gray-600 drop-shadow-md"
+                    target="_blank"
+                  >
+                    <p className="">{t("Links.1")}</p>
+                    <img
+                      className="p-1 w-5 h-5 sm:w-6 sm:h-6"
+                      src={ExternalLink}
+                      alt="javascript"
+                    />
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
 
         <div className="md:p-10 md:pl-16 md:pr-16 sm:mb-2 mb-5">
-          <ProjectCarousel />
+          <Carousel
+            className="rounded-lg"
+            prevArrow={({ handlePrev }) => (
+              <IconButton
+                variant="text"
+                color="teal"
+                size="lg"
+                onClick={handlePrev}
+                className="!absolute top-2/4 left-4 -translate-y-2/4"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={2}
+                  stroke="currentColor"
+                  className="h-6 w-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18"
+                  />
+                </svg>
+              </IconButton>
+            )}
+            nextArrow={({ handleNext }) => (
+              <IconButton
+                variant="text"
+                color="teal"
+                size="lg"
+                onClick={handleNext}
+                className="!absolute top-2/4 !right-4 -translate-y-2/4"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={2}
+                  stroke="currentColor"
+                  className="h-6 w-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+                  />
+                </svg>
+              </IconButton>
+            )}
+            transition={{ duration: 2 }}
+            navigation={({ setActiveIndex, activeIndex, length }) => (
+              <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">
+                {new Array(length).fill("").map((_, i) => (
+                  <span
+                    key={i}
+                    className={`block h-1 cursor-pointer rounded-2xl transition-all content-[''] ${
+                      activeIndex === i ? "w-8 bg-white" : "w-4 bg-white/50"
+                    }`}
+                    onClick={() => setActiveIndex(i)}
+                  />
+                ))}
+              </div>
+            )}
+          >
+            <img
+              src={ProjectOneImageOne}
+              alt="Image of project 1"
+              className="h-full w-full object cover"
+            />
+            <img
+              src={ProjectOneImageTwo}
+              alt="Image of project 2"
+              className="h-full w-full object cover"
+            />
+            <img
+              src={ProjectOneImageThree}
+              alt="Image of project 3"
+              className="h-full w-full object cover"
+            />
+            <img
+              src={ProjectOneImageFour}
+              alt="Image of project 4"
+              className="h-full w-full object cover"
+            />
+          </Carousel>
         </div>
 
         {/* <div className="aspect-w-16 aspect-h-9">

@@ -28,7 +28,7 @@ const ProjectCarousel = () => {
       <img
         src={ProjectImageOne}
         alt="Image of project 2"
-        className="sm:h-full max-h-96 w-full object cover"
+        className="h-full w-full object cover"
       />
       <img
         src={ProjectImageOne}

@@ -2,6 +2,9 @@
   "Intro": {
     "1": "I am currently studying Full Stack Development. I would like to delve more into the front-end, as I enjoy the creative side of creating an appealing and unique browser, as well as the challenges and rewards that come from communicating with customers. I enjoy creating React projects with a MERN Stack, teaching myself Shopify, with my customised Shopify site and working on my Unity game using C#."
   },
+  "JobTitle": {
+    "1": "Front-end Developer"
+  },
   "AboutMe": {
     "1": "I have a Bachelor of Communications, majoring in Digital Media and minoring in Advertising. I first started working in Marketing and Customer Service, but have recently been travelling the world working in Australia at a resort and a cattle station. I also worked on a super yacht in the Mediterranean Sea and was the House Manager at a private estate in Guernsey. I am very good at adapting to new situation and environments and am familiar withn a change in scenery. I have decided to come back to my Digital Media background and add to my skills of Web Development. When I am not coding, I am delving into the French language and keeping the time on the drums."
   },
@@ -21,15 +24,22 @@
   },
   "LanguagesAndSoftware": {
     "1": "MERN Stack",
-    "2": "Bootstrap",
-    "3": "React",
-    "4": "Filter & Sort",
-    "5": "JavaScript",
-    "6": "Jest",
-    "7": "C#",
-    "8": "Unity"
+    "2": "Auth0",
+    "3": "Bootstrap",
+    "4": "React",
+    "5": "Filter & Sort",
+    "6": "JavaScript",
+    "7": "Jest",
+    "8": "C#",
+    "9": "Unity"
+  },
+  "Links": {
+    "1": "Live Demo"
   },
   "Spotify": {
     "1": "Here's a taste of the music I enjoy!"
+  },
+  "ProjectContent": {
+    "1": "The Reservationizr was the 2nd project of my Server-Side paper at the Developers Institute. It allows a user to log in to their account via Auth0 and view the reservations that they have made with specific restaurants. It uses React for the front end with Auth0's protected routes to filter out what content a user can see based on whether they are logged in or not. It is using Express.js along with JWT's for the GET and POST API requests, along with Node.js as the server language. This server is talking to a MongoDB Atlas database which stores the JSON data collections. In the future, I would like to add PATCH and DELETE requests to give the user more control over thier reservations."
   }
 }

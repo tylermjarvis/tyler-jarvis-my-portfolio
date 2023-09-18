@@ -2,6 +2,9 @@
   "Intro": {
     "1": "J'étudie actuellement le développement Full Stack. J'aimerais approfondir davantage le front-end, car j'apprécie le côté créatif de la création d'un navigateur attrayant et unique, ainsi que les défis et les récompenses qui découlent de la communication avec les clients. J'aime créer des projets React avec une pile MERN, apprendre moi-même Shopify, avec mon site Shopify personnalisé et travailler sur mon jeu Unity en C#."
   },
+  "JobTitle": {
+    "1": "Développeur Frontal"
+  },
   "AboutMe": {
     "1": "J'ai un baccalauréat en communications, avec spécialisation en médias numériques et mineure en publicité. J'ai d'abord travaillé dans le marketing et le service client, mais j'ai récemment voyagé à travers le monde en travaillant en Australie dans un complexe hôtelier et une ferme d'élevage. J'ai également travaillé sur un super yacht en mer Méditerranée et j'ai été directeur de maison dans un domaine privé à Guernesey. Je sais très bien m'adapter à de nouvelles situations et environnements et je suis familier avec le changement de décor. J'ai décidé de revenir à mon expérience en médias numériques et d'ajouter à mes compétences en développement Web. Quand je ne code pas, je me plonge dans la langue française et je mesure le rythme à la batterie."
   },
@@ -21,9 +24,15 @@
   },
   "LanguagesAndSoftware": {
     "1": "Pile MERN",
-    "4": "Filtrer et Trier"
+    "5": "Filtrer et Trier"
+  },
+  "Links": {
+    "1": "Démo en Direct"
   },
   "Spotify": {
     "1": "Voici un avant-goût de la musique que j'apprécie!"
+  },
+  "ProjectContent": {
+    "1": "Le Reservationizr était le 2ème projet de mon article Server-Side au Developers Institute. Il permet à un utilisateur de se connecter à son compte via Auth0 et de consulter les réservations qu'il a effectuées auprès de restaurants spécifiques. Il utilise React pour le front-end avec les routes protégées d'Auth0 pour filtrer le contenu qu'un utilisateur peut voir selon qu'il est connecté ou non. Il utilise Express.js avec JWT pour les requêtes API GET et POST, ainsi que Node.js comme langage serveur. Ce serveur communique avec une base de données MongoDB Atlas qui stocke les collections de données JSON. À l'avenir, j'aimerais ajouter les requêtes PATCH et DELETE pour donner à l'utilisateur plus de contrôle sur ses réservations."
   }
 }

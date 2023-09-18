@@ -9,7 +9,7 @@ import MongoDB from "../images/tech-stack/mongoDB.webp";
 
 const TechStack = () => {
   return (
-    <div className="sm:row-start-3 lg:col-start-3 lg:col-end-6 sm:mt-3 sm:p-5">
+    <div className="lg:col-start-3 lg:col-end-6 sm:mt-3 sm:p-5">
       <ul className="flex flex-row flex-wrap">
         <li className="">
           <img

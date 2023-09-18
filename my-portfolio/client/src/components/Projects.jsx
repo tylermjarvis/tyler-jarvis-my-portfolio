@@ -175,6 +175,9 @@ const Projects = () => {
                   <p className="text-sm sm:text-base">
                     {t("LanguagesAndSoftware.1")}
                   </p>
+                  <p className="text-sm sm:text-base">
+                    {t("LanguagesAndSoftware.2")}
+                  </p>
                 </div>
               </div>
             </Link>
@@ -196,10 +199,10 @@ const Projects = () => {
                     {t("Project.2")}
                   </h2>
                   <p className="text-sm sm:text-base bottom-6">
-                    {t("LanguagesAndSoftware.2")}
+                    {t("LanguagesAndSoftware.3")}
                   </p>
                   <p className="text-sm sm:text-base bottom-6">
-                    {t("LanguagesAndSoftware.3")}
+                    {t("LanguagesAndSoftware.4")}
                   </p>
                 </div>
               </div>
@@ -222,7 +225,7 @@ const Projects = () => {
                     {t("Project.3")}
                   </h2>
                   <p className="text-sm sm:text-base bottom-6">
-                    {t("LanguagesAndSoftware.3")}
+                    {t("LanguagesAndSoftware.5")}
                   </p>
                   <p className="text-sm sm:text-base bottom-6">
                     {t("LanguagesAndSoftware.4")}
@@ -248,10 +251,10 @@ const Projects = () => {
                     {t("Project.4")}
                   </h2>
                   <p className="text-sm sm:text-base bottom-6">
-                    {t("LanguagesAndSoftware.5")}
+                    {t("LanguagesAndSoftware.6")}
                   </p>
                   <p className="text-sm sm:text-base bottom-6">
-                    {t("LanguagesAndSoftware.6")}
+                    {t("LanguagesAndSoftware.7")}
                   </p>
                 </div>
               </div>
@@ -274,10 +277,10 @@ const Projects = () => {
                     {t("Project.5")}
                   </h2>
                   <p className="text-sm sm:text-base bottom-6">
-                    {t("LanguagesAndSoftware.7")}
+                    {t("LanguagesAndSoftware.8")}
                   </p>
                   <p className="text-sm sm:text-base bottom-6">
-                    {t("LanguagesAndSoftware.8")}
+                    {t("LanguagesAndSoftware.9")}
                   </p>
                 </div>
               </div>

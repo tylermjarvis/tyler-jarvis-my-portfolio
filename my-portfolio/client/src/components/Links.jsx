@@ -1,24 +1,13 @@
 import { Link } from "react-router-dom";
 import GitHub from "../images/project-page-images/github-white.png";
 import ExternalLink from "../images/project-page-images/external-link-white.png";
+import { useTranslation } from "react-i18next";
 
 const SoftwareAndLinks = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="sm:row-start-3 lg:col-start-3 lg:col-end-6 sm:mt-3 ml-6">
-      <div className="sm:ml-6 ml-0 sm:text-base text-sm">
-        <ul className="flex flex-row flex-wrap sm:gap-8 gap-5 font-bold text-gray-800">
-          <li className="">
-            <p className="">React</p>
-          </li>
-          <li className="">
-            <p className="">CSS Grid</p>
-          </li>
-          <li className="">
-            <p className="">Node.JS</p>
-          </li>
-        </ul>
-      </div>
-
       <div className="sm:mt-8 mt-4 sm:ml-6 ml-0 sm:text-lg text-sm">
         <ul className="flex flex-row flex-wrap gap-4 font-bold text-ivory">
           <li className="">
@@ -29,7 +18,7 @@ const SoftwareAndLinks = () => {
             >
               <p className="">Code</p>
               <img
-                className="p-1 w-5 h-5 sm:w-6 sm:h-6 bg-fill-ivory"
+                className="p-1 w-5 h-5 sm:w-6 sm:h-6"
                 src={GitHub}
                 alt="javascript"
               />
@@ -41,9 +30,9 @@ const SoftwareAndLinks = () => {
               className="flex flex-row bg-teal-500 hover:bg-teal-200 p-2 rounded-md border-2 border-gray-600 drop-shadow-md"
               target="_blank"
             >
-              <p className="">Live Demo</p>
+              <p className="">{t("Links.1")}</p>
               <img
-                className="p-1 w-5 h-5 sm:w-6 sm:h-6 bg-fill-ivory"
+                className="p-1 w-5 h-5 sm:w-6 sm:h-6"
                 src={ExternalLink}
                 alt="javascript"
               />
