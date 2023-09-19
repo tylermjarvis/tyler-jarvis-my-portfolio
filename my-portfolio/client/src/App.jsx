@@ -9,6 +9,11 @@ import Project2 from "./components/Project2";
 import Project3 from "./components/Project3";
 import Project4 from "./components/Project4";
 import Project5 from "./components/Project5";
+import Project6 from "./components/Project6";
+import Project7 from "./components/Project7";
+import Project8 from "./components/Project8";
+import Project9 from "./components/Project9";
+import Project10 from "./components/Project10";
 import SocialBar from "./components/SocialBar";
 
 function App() {
@@ -24,6 +29,14 @@ function App() {
           <Route path="/projects/Jap Snack" element={<Project3 />} />
           <Route path="/projects/Adrenaline Bot" element={<Project4 />} />
           <Route path="/projects/Mesozoic 3023" element={<Project5 />} />
+          <Route path="/projects/Glowing Text" element={<Project6 />} />
+          <Route
+            path="/projects/Spaceship Title Screen"
+            element={<Project7 />}
+          />
+          <Route path="/projects/3D Projection" element={<Project8 />} />
+          <Route path="/projects/Unity Game Intro" element={<Project9 />} />
+          <Route path="/projects/Egypt Video" element={<Project10 />} />
         </Routes>
 
         <div className="">

@@ -6,7 +6,7 @@
     "1": "Front-end Developer"
   },
   "AboutMe": {
-    "1": "I have a Bachelor of Communications, majoring in Digital Media and minoring in Advertising. I first started working in Marketing and Customer Service, but have recently been travelling the world working in Australia at a resort and a cattle station. I also worked on a super yacht in the Mediterranean Sea and was the House Manager at a private estate in Guernsey. I am very good at adapting to new situation and environments and am familiar withn a change in scenery. I have decided to come back to my Digital Media background and add to my skills of Web Development. When I am not coding, I am delving into the French language and keeping the time on the drums."
+    "1": "I have a Bachelor of Communications, majoring in Digital Media and minoring in Advertising. I first started working in Marketing and Customer Service, but have recently been travelling the world working in Australia at a resort and a cattle station. I also worked on a super yacht in the Mediterranean Sea and was the House Manager at a private estate in Guernsey. I am very good at adapting to new situation and environments and am familiar with a change in scenery. I have decided to come back to my Digital Media background and add to my skills of Web Development. When I am not coding, I am delving into the French language and keeping the time on the drums."
   },
   "Projects": {
     "1": "Projects"
@@ -14,9 +14,14 @@
   "Project": {
     "1": "Restaurant Reservation App",
     "2": "Bootstrap Website",
-    "3": "React Online Shop",
+    "3": "Online Shop",
     "4": "ChatBot",
-    "5": "Unity Game Mesozoic 3023"
+    "5": "Unity Game Mesozoic 3023",
+    "6": "Glowing 3D Text",
+    "7": "Spaceship Title Screen",
+    "8": "3D Projection",
+    "9": "Game Intro",
+    "10": "Egypt Video"
   },
   "NavBar": {
     "1": "Home",
@@ -33,7 +38,11 @@
     "8": "C#",
     "9": "Unity",
     "10": "CSS Grid",
-    "11": "Cinema 4D"
+    "11": "Cinema 4D",
+    "12": "Premiere Pro",
+    "13": "After Effects",
+    "14": "Photoshop",
+    "15": "Go Pro"
   },
   "Links": {
     "1": "Live Demo"
@@ -46,7 +55,12 @@
     "2": "This Bootstrap website was my very first attempt at a portfolio website, before I had learnt React. It's core focus was to teach me Bootstrap, whilst using my previous knowledge of HTML, CSS and some JavaScript. I was influenced by the grid style layout that you often see on photography pages/portfolios. The image grids within each nav-link follow the photography page style, where all images are different sizes, however they still fit nicely within a rectangle container. In order to push this project live, I used React and Vite to create a build through the GitHub repository.",
     "3": "Jap Snack was my third project of the Client-Side paper at the Developers Institute. It is a website that allows a user to purchase Japanese Snacks. It is the first website that I have used React. We used Stripe to feature projects that a user could purchase. There is also the ability to filter products by specific category and sort the list of products by the highest and lowest prices.",
     "4": "The Adrenaline Bot was the second project of the Client-Side paper. It uses JavaScript conditional blocks of code to check user input based on the options that it has given to the user. It uses edge cases to make sure that it can provide the best direction and user experience possible. For example, if the user types 'skydive' when requested, it will still give them the option, as if they typed 'sky dive'. It also stores the user's name that they enter and refers to them during their interaction with the Chat Bot.",
-    "5": "This project is my pride and joy! I took a C# course through Udemy and have decided to put that language to the test through Unity. I have followed the HexMap tutorial by CatLikeCoding to generate a single plane in Unity which morphs into a tile map. This tile map can be customized by the player, however long term I would like it to generate a map upon the awakening of that scene. At the moment a have a shape in place of a unit that a player can control and move using A* pathfinding to determine the shortest route to travel. Long term I would like to turn this into a game similar to Jurassic World Alive, but with an XCOM styled battle system."
+    "5": "This project is my pride and joy! I took a C# course through Udemy and have decided to put that language to the test through Unity. I have followed the HexMap tutorial by CatLikeCoding to generate a single plane in Unity which morphs into a tile map. This tile map can be customized by the player, however long term I would like it to generate a map upon the awakening of that scene. At the moment a have a shape in place of a unit that a player can control and move using A* pathfinding to determine the shortest route to travel. Long term I would like to turn this into a game similar to Jurassic World Alive, but with an XCOM styled battle system.",
+    "6": "This project is an example of my 3D and video editing abilities. Firstly, I created the 3D glowing text in Cinema 4D with 4 different cameras, each animated around the text in their own way. Then I saved each component in Cinema 4D so that they would appear on a different layer in After Effects. This allowed me to cut the footage based on the each camera layer. Finally, I added music and the polished the editing in Premiere Pro.",
+    "7": "The Futuristic Spaceship Title screen is a project that I created in order to showcase some of my work in a small portfolio styled video that I could use to introduce my passions, work and showcase my 3D and video editing skills. It features work that I have done in Adobe Illustrator and other videos I have made. I have used Corona Render to speed up render times and enhance the render result. I have added effects through After Effects and edited the music and sound effects through Premiere Pro.",
+    "8": "This sci-fi city is actually a 2D image that has been split into multiple layers with the help of the 3D projection software/add-on in After Effects. This allows the camera to give the feeling of rotation around the image with the different layers changing in dimension and location, giving a 3D feel. This element, along with the 3D spaceships, tricks the eye into thinking that the entire scene is in 3D.",
+    "9": "This video was originally for the Unity game (before the name changed). It is a small intro video using bevelled font in Premiere Pro. The logo was created in Photoshop and then bevelled in Premiere Pro. There is a mix of music in the background, edited with Premiere Pro.",
+    "10": "One of my greatest passions is creating home video styled videos with my Go Pro, that I can look back on. I have tried to document all the travel that I have been lucky enough to do. I use Premiere Pro to edit the footage and create a specific feel depending on the video. The feel I have tried to create with this video, is a very calm and relaxing video that relates to the feel of the Nile river and the relaxed lifestyle of the Nubian people. This is seen with the music choice (an Egytian artists) and the length of each scene. I have used the DJ software Virtual DJ to edit and have greater control over the music, due to the quick manipulation I can do with my DJ controller."
   },
   "OtherProjects": {
     "1": "Other Projects"

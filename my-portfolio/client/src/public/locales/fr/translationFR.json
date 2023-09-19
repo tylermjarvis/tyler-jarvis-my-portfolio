@@ -14,9 +14,14 @@
   "Project": {
     "1": "App de réservation de restaurant",
     "2": "Site Web Bootstrap",
-    "3": "Boutique en ligne React",
-    "4": "Agent Conversationnel",
-    "5": "Jeu Unity Mésozoïque 3023"
+    "3": "Boutique en ligne",
+    "4": "Assistant Virtuel",
+    "5": "Jeu Unity Mésozoïque 3023",
+    "6": "Texte 3D Brillant",
+    "7": "Écran Titre du Vaisseau Spatial",
+    "8": "Projection 3D",
+    "9": "Introduction au Jeu",
+    "10": "Egypte Vidéo"
   },
   "NavBar": {
     "1": "Accueil",
@@ -25,8 +30,7 @@
   "LanguagesAndSoftware": {
     "1": "Pile MERN",
     "5": "Filtrer et Trier",
-    "10": "Grille CSS",
-    "11": "Cinéma 4D"
+    "10": "Grille CSS"
   },
   "Links": {
     "1": "Démo en Direct"
@@ -38,8 +42,13 @@
     "1": "Le Reservationizr était le 2ème projet de mon article Server-Side au Developers Institute. Il permet à un utilisateur de se connecter à son compte via Auth0 et de consulter les réservations qu'il a effectuées auprès de restaurants spécifiques. Il utilise React pour le front-end avec les routes protégées d'Auth0 pour filtrer le contenu qu'un utilisateur peut voir selon qu'il est connecté ou non. Il utilise Express.js avec JWT pour les requêtes API GET et POST, ainsi que Node.js comme langage serveur. Ce serveur communique avec une base de données MongoDB Atlas qui stocke les collections de données JSON. À l'avenir, j'aimerais ajouter les requêtes PATCH et DELETE pour donner à l'utilisateur plus de contrôle sur ses réservations.",
     "2": "Ce site Web Bootstrap était ma toute première tentative de création d'un site Web de portfolio, avant d'apprendre React. L'objectif principal était de m'apprendre Bootstrap, tout en utilisant mes connaissances antérieures en HTML, CSS et un peu de JavaScript. J'ai été influencé par la disposition en style grille que l'on voit souvent sur les pages/portefeuilles de photographie. Les grilles d'images dans chaque lien de navigation suivent le style de la page de photographie, où toutes les images sont de tailles différentes, mais elles s'intègrent toujours bien dans un conteneur rectangulaire. Afin de mettre ce projet en ligne, j'ai utilisé React et Vite pour créer une version via le référentiel GitHub.",
     "3": "Jap Snack était mon troisième projet du document Client-Side au Developers Institute. Il s'agit d'un site Web qui permet à un utilisateur d'acheter des collations japonaises. C'est le premier site Web que j'utilise React. Nous avons utilisé Stripe pour présenter des projets qu'un utilisateur pouvait acheter. Il existe également la possibilité de filtrer les produits par catégorie spécifique et de trier la liste des produits par prix les plus élevés et les plus bas.",
-    "4": "L'Adrenaline Bot était le deuxième projet du document Client-Side. Il utilise des blocs de code conditionnels JavaScript pour vérifier les entrées de l'utilisateur en fonction des options qu'il a données à l'utilisateur. Il utilise des cas extrêmes pour s'assurer qu'il peut fournir la meilleure direction et la meilleure expérience utilisateur possible. Par exemple, si l'utilisateur tape « skydive » lorsqu'il lui est demandé, il lui donnera toujours l'option, comme s'il avait tapé « skydive ». Il stocke également le nom de l'utilisateur qu'il saisit et s'y réfère lors de son interaction avec le Chat Bot.",
-    "5": "Ce projet est ma fierté et ma joie! J'ai suivi un cours C# via Udemy et j'ai décidé de tester ce langage via Unity. J'ai suivi le tutoriel HexMap de CatLikeCoding pour générer un seul plan dans Unity qui se transforme en une carte de tuiles. Cette carte de tuiles peut être personnalisée par le joueur, mais à long terme, j'aimerais qu'elle génère une carte au réveil de cette scène. Pour le moment, nous avons une forme à la place d'une unité qu'un joueur peut contrôler et déplacer en utilisant la recherche de chemin A* pour déterminer le chemin le plus court à parcourir. À long terme, j'aimerais en faire un jeu similaire à Jurassic World Alive, mais avec un système de combat de style XCOM."
+    "4": "L'Adrenaline Bot était le deuxième projet du document Client-Side. Il utilise des blocs de code conditionnels JavaScript pour vérifier les entrées de l'utilisateur en fonction des options qu'il a données à l'utilisateur. Il utilise des cas extrêmes pour s'assurer qu'il peut fournir la meilleure direction et la meilleure expérience utilisateur possible. Par exemple, si l'utilisateur tape 'skydive' lorsqu'il lui est demandé, il lui donnera toujours l'option, comme s'il avait tapé 'skydive'. Il stocke également le nom de l'utilisateur qu'il saisit et s'y réfère lors de son interaction avec le Chat Bot.",
+    "5": "Ce projet est ma fierté et ma joie! J'ai suivi un cours C# via Udemy et j'ai décidé de tester ce langage via Unity. J'ai suivi le tutoriel HexMap de CatLikeCoding pour générer un seul plan dans Unity qui se transforme en une carte de tuiles. Cette carte de tuiles peut être personnalisée par le joueur, mais à long terme, j'aimerais qu'elle génère une carte au réveil de cette scène. Pour le moment, nous avons une forme à la place d'une unité qu'un joueur peut contrôler et déplacer en utilisant la recherche de chemin A* pour déterminer le chemin le plus court à parcourir. À long terme, j'aimerais en faire un jeu similaire à Jurassic World Alive, mais avec un système de combat de style XCOM.",
+    "6": "Ce projet est un exemple de mes capacités en 3D et en montage vidéo. Tout d'abord, j'ai créé le texte lumineux 3D dans Cinema 4D avec 4 caméras différentes, chacune animée autour du texte à sa manière. Ensuite, j'ai enregistré chaque composant dans Cinema 4D afin qu'ils apparaissent sur un calque différent dans After Effects. Cela m'a permis de couper les images en fonction de chaque couche de caméra. Enfin, j'ai ajouté de la musique et peaufiné le montage dans Premiere Pro.",
+    "7": "L'écran Titre du Vaisseau Spatial Futuriste est un projet que j'ai créé afin de présenter certains de mes travaux dans une petite vidéo de style portfolio que je pourrais utiliser pour présenter mes passions, mon travail et mettre en valeur mes compétences en 3D et en montage vidéo. Il présente le travail que j'ai effectué dans Adobe Illustrator et d'autres vidéos que j'ai réalisées. J'ai utilisé Corona Render pour accélérer les temps de rendu et améliorer le résultat du rendu. J'ai ajouté des effets via After Effects et édité la musique et les effets sonores via Premiere Pro.",
+    "8": "Cette ville de science-fiction est en fait une image 2D qui a été divisée en plusieurs couches à l’aide du logiciel/module complémentaire de projection 3D d’After Effects. Cela permet à la caméra de donner la sensation de rotation autour de l'image avec les différentes couches changeant de dimension et d'emplacement, donnant une sensation 3D. Cet élément, ainsi que les vaisseaux spatiaux 3D, font croire à l’œil que la scène entière est en 3D.",
+    "9": "Cette vidéo était à l'origine destinée au jeu Unity (avant que le nom ne change). Il s'agit d'une petite vidéo d'introduction utilisant une police biseautée dans Premiere Pro. Le logo a été créé dans Photoshop puis biseauté dans Premiere Pro. Il y a un mélange de musique en arrière-plan, édité avec Premiere Pro.",
+    "10": "L'une de mes plus grandes passions est de créer des vidéos de style vidéo personnelle avec ma Go Pro, sur lesquelles je peux me souvenir. J'ai essayé de documenter tous les voyages que j'ai eu la chance de faire. J'utilise Premiere Pro pour monter les séquences et créer une ambiance spécifique en fonction de la vidéo. L'ambiance que j'ai essayé de créer avec cette vidéo est une vidéo très calme et relaxante qui se rapporte à l'ambiance du Nil et au style de vie détendu du peuple nubien. Cela se voit dans le choix de la musique (un artiste égyptien) et dans la durée de chaque scène. J'ai utilisé le logiciel DJ Virtual DJ pour éditer et avoir un meilleur contrôle sur la musique, grâce à la manipulation rapide que je peux faire avec mon contrôleur DJ."
   },
   "OtherProjects": {
     "1": "Autres Projets"
