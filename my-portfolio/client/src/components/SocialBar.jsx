@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import PDF from "../images/Tyler_Jarvis_Tech_CV_2023.pdf";
+import PDF from "../images/Tyler_Jarvis_CV_Website.pdf";
 
 const SocialBar = () => {
   return (

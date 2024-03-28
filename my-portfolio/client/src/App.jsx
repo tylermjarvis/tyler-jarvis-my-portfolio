@@ -14,6 +14,8 @@ import Project7 from "./components/Project7";
 import Project8 from "./components/Project8";
 import Project9 from "./components/Project9";
 import Project10 from "./components/Project10";
+import Project11 from "./components/Project11";
+import Project12 from "./components/Project12";
 import SocialBar from "./components/SocialBar";
 
 function App() {
@@ -37,6 +39,8 @@ function App() {
           <Route path="/projects/3D Projection" element={<Project8 />} />
           <Route path="/projects/Unity Game Intro" element={<Project9 />} />
           <Route path="/projects/Egypt Video" element={<Project10 />} />
+          <Route path="/projects/Elementor Site" element={<Project11 />} />
+          <Route path="/projects/Capstone Project" element={<Project12 />} />
         </Routes>
 
         <div className="">

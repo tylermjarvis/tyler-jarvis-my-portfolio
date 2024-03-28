@@ -21,7 +21,9 @@
     "7": "Spaceship Title Screen",
     "8": "3D Projection",
     "9": "Game Intro",
-    "10": "Egypt Video"
+    "10": "Egypt Video",
+    "11": "Elementor Site",
+    "12": "Capstone Project"
   },
   "NavBar": {
     "1": "Home",
@@ -42,7 +44,10 @@
     "12": "Premiere Pro",
     "13": "After Effects",
     "14": "Photoshop",
-    "15": "Go Pro"
+    "15": "Go Pro",
+    "16": "Elementor",
+    "17": "Figma",
+    "18": "Custom CSS"
   },
   "Links": {
     "1": "Live Demo"
@@ -60,7 +65,8 @@
     "7": "The Futuristic Spaceship Title screen is a project that I created in order to showcase some of my work in a small portfolio styled video that I could use to introduce my passions, work and showcase my 3D and video editing skills. It features work that I have done in Adobe Illustrator and other videos I have made. I have used Corona Render to speed up render times and enhance the render result. I have added effects through After Effects and edited the music and sound effects through Premiere Pro.",
     "8": "This sci-fi city is actually a 2D image that has been split into multiple layers with the help of the 3D projection software/add-on in After Effects. This allows the camera to give the feeling of rotation around the image with the different layers changing in dimension and location, giving a 3D feel. This element, along with the 3D spaceships, tricks the eye into thinking that the entire scene is in 3D.",
     "9": "This video was originally for the Unity game (before the name changed). It is a small intro video using bevelled font in Premiere Pro. The logo was created in Photoshop and then bevelled in Premiere Pro. There is a mix of music in the background, edited with Premiere Pro.",
-    "10": "One of my greatest passions is creating home video styled videos with my Go Pro, that I can look back on. I have tried to document all the travel that I have been lucky enough to do. I use Premiere Pro to edit the footage and create a specific feel depending on the video. The feel I have tried to create with this video, is a very calm and relaxing video that relates to the feel of the Nile river and the relaxed lifestyle of the Nubian people. This is seen with the music choice (an Egytian artists) and the length of each scene. I have used the DJ software Virtual DJ to edit and have greater control over the music, due to the quick manipulation I can do with my DJ controller."
+    "10": "One of my greatest passions is creating home video styled videos with my Go Pro, that I can look back on. I have tried to document all the travel that I have been lucky enough to do. I use Premiere Pro to edit the footage and create a specific feel depending on the video. The feel I have tried to create with this video, is a very calm and relaxing video that relates to the feel of the Nile river and the relaxed lifestyle of the Nubian people. This is seen with the music choice (an Egytian artists) and the length of each scene. I have used the DJ software Virtual DJ to edit and have greater control over the music, due to the quick manipulation I can do with my DJ controller.",
+    "11": "This is the first project/website that I have made through the Elementor plugin in Wordpress. It was a development test for the role of Intern Wordpress Developer with the company, The Web Guys. It utilises blending of sections, JavaScript to hide and change content, horizontal scrolling and is responsive. I found Elementor to be straight forward to use and add custom CSS to. My approach for creating this website was to experiment, add elements that I was not familiar with and break the layout with the intention to learn as much as I could and how I can approach each design element differently to increase my overall familiarity with Elementor and Wordpress."
   },
   "OtherProjects": {
     "1": "Other Projects"

@@ -12,6 +12,8 @@ import ProjectSeven from "../images/project-page-images/project-7/project7-title
 import ProjectEight from "../images/project-page-images/project-8/project8-3D-projection.png";
 import ProjectNine from "../images/project-page-images/project-9/project9-game-intro.png";
 import ProjectTen from "../images/project-page-images/project-10/project10-egypt-video.png";
+import ProjectEleven from "../images/project-page-images/project-11/the-web-guys-site-long.png";
+import ProjectTwelve from "../images/project-page-images/project-12/portfolio-section.png";
 
 const Projects = () => {
   const { t } = useTranslation();
@@ -279,7 +281,7 @@ const Projects = () => {
                 <img
                   className="rounded-t-lg"
                   src={ProjectTen}
-                  alt="unity game intro"
+                  alt="thumbnail of egypt video with temple"
                   width="250"
                   height="auto"
                 />
@@ -292,6 +294,62 @@ const Projects = () => {
                   </p>
                   <p className="text-sm sm:text-base bottom-6">
                     {t("LanguagesAndSoftware.15")}
+                  </p>
+                </div>
+              </div>
+            </Link>
+          </div>
+        </li>
+
+        {/* Elementor Project */}
+        <li className="">
+          <div className="block rounded-lg bg-gray-800 bg-opacity-80 hover:scale-105 transition duration-500 cursor-pointer object-cover filter hover:brightness-75">
+            <Link to="/projects/Elementor Site" className="">
+              <div className="overflow-hidden bg-cover bg-no-repeat">
+                <img
+                  className="rounded-t-lg"
+                  src={ProjectEleven}
+                  alt="elementor site"
+                  width="250"
+                  height="auto"
+                />
+                <div className="p-4 w-60 text-white grid grid-row-3 gap-y-4">
+                  <h2 className="sm:text-2xl border-b-4 border-teal-500 border-opacity-80">
+                    {t("Project.11")}
+                  </h2>
+                  <p className="text-sm sm:text-base bottom-6">
+                    {t("LanguagesAndSoftware.16")}
+                  </p>
+                  <p className="text-sm sm:text-base bottom-6">
+                    {t("LanguagesAndSoftware.17")}
+                  </p>
+                </div>
+              </div>
+            </Link>
+          </div>
+        </li>
+
+        {/* Capstone Project */}
+        <li className="">
+          <div className="block rounded-lg bg-gray-800 bg-opacity-80 hover:scale-105 transition duration-500 cursor-pointer object-cover filter hover:brightness-75">
+            <Link to="/projects/Capstone Project" className="">
+              <div className="overflow-hidden bg-cover bg-no-repeat">
+                <img
+                  className="rounded-t-lg"
+                  src={ProjectTwelve}
+                  alt="portfolio section of capstone project"
+                  width="250"
+                  height="auto"
+                />
+                <div className="p-4 w-60 text-white grid grid-row-3 gap-y-4">
+                  <h2 className="sm:text-2xl border-b-4 border-teal-500 border-opacity-80">
+                    {t("Project.12")}
+                  </h2>
+                  <p className="text-sm sm:text-base bottom-6">
+                    {t("LanguagesAndSoftware.3")}
+                  </p>
+                  <p className="text-sm sm:text-base bottom-6">
+                    {t("LanguagesAndSoftware.6")}
                   </p>
                 </div>
               </div>
