@@ -13,7 +13,7 @@ import ProjectEight from "../images/project-page-images/project-8/project8-3D-pr
 import ProjectNine from "../images/project-page-images/project-9/project9-game-intro.png";
 import ProjectTen from "../images/project-page-images/project-10/project10-egypt-video.png";
 import ProjectEleven from "../images/project-page-images/project-11/the-web-guys-site-long.png";
-import ProjectTwelve from "../images/project-page-images/project-12/portfolio-section.png";
+import ProjectTwelve from "../images/project-page-images/project-12/project-12-long.png";
 
 const Projects = () => {
   const { t } = useTranslation();

@@ -47,7 +47,8 @@
     "15": "Go Pro",
     "16": "Elementor",
     "17": "Figma",
-    "18": "Custom CSS"
+    "18": "Custom CSS",
+    "19": "Filter function"
   },
   "Links": {
     "1": "Live Demo"
@@ -66,7 +67,8 @@
     "8": "This sci-fi city is actually a 2D image that has been split into multiple layers with the help of the 3D projection software/add-on in After Effects. This allows the camera to give the feeling of rotation around the image with the different layers changing in dimension and location, giving a 3D feel. This element, along with the 3D spaceships, tricks the eye into thinking that the entire scene is in 3D.",
     "9": "This video was originally for the Unity game (before the name changed). It is a small intro video using bevelled font in Premiere Pro. The logo was created in Photoshop and then bevelled in Premiere Pro. There is a mix of music in the background, edited with Premiere Pro.",
     "10": "One of my greatest passions is creating home video styled videos with my Go Pro, that I can look back on. I have tried to document all the travel that I have been lucky enough to do. I use Premiere Pro to edit the footage and create a specific feel depending on the video. The feel I have tried to create with this video, is a very calm and relaxing video that relates to the feel of the Nile river and the relaxed lifestyle of the Nubian people. This is seen with the music choice (an Egytian artists) and the length of each scene. I have used the DJ software Virtual DJ to edit and have greater control over the music, due to the quick manipulation I can do with my DJ controller.",
-    "11": "This is the first project/website that I have made through the Elementor plugin in Wordpress. It was a development test for the role of Intern Wordpress Developer with the company, The Web Guys. It utilises blending of sections, JavaScript to hide and change content, horizontal scrolling and is responsive. I found Elementor to be straight forward to use and add custom CSS to. My approach for creating this website was to experiment, add elements that I was not familiar with and break the layout with the intention to learn as much as I could and how I can approach each design element differently to increase my overall familiarity with Elementor and Wordpress."
+    "11": "This is the first project/website that I have made through the Elementor plugin in Wordpress. It was a development test for the role of Intern Wordpress Developer with the company, The Web Guys. It utilises blending of sections, JavaScript to hide and change content, horizontal scrolling and is responsive. I found Elementor to be straight forward to use and add custom CSS to. My approach for creating this website was to experiment, add elements that I was not familiar with and break the layout with the intention to learn as much as I could and how I can approach each design element differently to increase my overall familiarity with Elementor and Wordpress.",
+    "12": "This is my Capstone Project that I have created whilst studying at Whitecliffe. We were instructed to find a client who had encountered numerous problems and requires an online presence or a refactored online presence. This web application was created for a local landscaper who was looking to have better reach to their customers or potential customers. The project required the use of CSS3, JavaScript and HTML5. I have also utilised Bootstrap for responsive purposes and React for deployment purposes. The project underwent planning that included business and stakeholder requirements, functional and non-functional requirements, UI design and test planning. UAT, usability and cross-browser testing was utilised to ensure the web application functioned as required and consistently over multiple browsers and devices."
   },
   "OtherProjects": {
     "1": "Other Projects"
