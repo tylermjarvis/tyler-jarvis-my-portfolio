@@ -31,7 +31,10 @@ const Home = () => {
         <div className="flex items-center py-4">
           <div className="flex-grow h-0.5 bg-teal-500 opacity-80"></div>
 
-          <span className="flex-shrink text-4xl text-gray-800 px-4 font-title">
+          <span
+            className="flex-shrink text-4xl text-gray-800 px-4 font-title"
+            id="#projects"
+          >
             {t("Projects.1")}
           </span>
 

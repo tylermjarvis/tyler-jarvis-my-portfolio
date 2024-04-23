@@ -5,6 +5,10 @@ import { useTranslation } from "react-i18next";
 const Project = () => {
   const { t } = useTranslation();
 
+  const scrollToTop = () => {
+    window.scrollTo({ top: 650, behavior: "smooth" });
+  };
+
   return (
     <div className="container rounded-sm mx-auto drop-shadow-md overflow-hidden mb-4">
       <header>
@@ -52,7 +56,11 @@ const Project = () => {
         </div>
 
         <div className="text-center sm:mb-3">
-          <Link to="/" className="text-ivory sm:text-lg text-base">
+          <Link
+            to="/"
+            className="text-ivory sm:text-lg text-base"
+            onClick={scrollToTop}
+          >
             <button className="bg-teal-500 hover:bg-teal-200 font-bold p-2 rounded-md border-2 border-gray-600 drop-shadow-md">
               {t("OtherProjects.1")}
             </button>
