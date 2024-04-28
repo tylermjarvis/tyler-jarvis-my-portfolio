@@ -9,7 +9,18 @@
     "1": "J'ai un baccalauréat en communications, avec spécialisation en médias numériques et mineure en publicité. J'ai d'abord travaillé dans le marketing et le service client, mais j'ai récemment voyagé à travers le monde en travaillant en Australie dans un complexe hôtelier et une ferme d'élevage. J'ai également travaillé sur un super yacht en mer Méditerranée et j'ai été directeur de maison dans un domaine privé à Guernesey. Je sais très bien m'adapter à de nouvelles situations et environnements et je suis familier avec le changement de décor. J'ai décidé de revenir à mon expérience en médias numériques et d'ajouter à mes compétences en développement Web. Quand je ne code pas, je me plonge dans la langue française et je mesure le rythme à la batterie."
   },
   "Projects": {
-    "1": "Projets"
+    "1": "Projets",
+    "2": "J'ai réalisé une variété de projets, allant des migrations Salesforce vers des jeux mobiles, des sites de commerce électronique et de loisirs utilisant des piles MERN, des chatbots et des créateurs de sites Web par glisser-déposer, notamment Shopify, Wix et WordPress.",
+    "3": "Mes projets front-end explorent les frameworks CSS tels que Bootstrap et Tailwind, qui ont été utilisés dans la conception de ce site. De plus, j'utilise des frameworks de test comme Jest en conjonction avec des instructions conditionnelles en JavaScript. J'explore également les créateurs de sites Web par glisser-déposer tels que Wix, combinés à Elementor.",
+    "4": "Les projets back-end que j'ai créés explorent l'utilisation des langages dans la pile MERN, ainsi que l'autorisation d'accès via Auth0 pour garantir que chaque utilisateur voit le contenu qui le concerne. De plus, j'ai développé une boutique de snacks japonais en ligne qui filtre et trie les produits en fonction de leur catégorie alimentaire. Les produits sont rendus à l'aide de l'API Stripe.",
+    "5": "Je suis actuellement en train de créer un jeu utilisant le moteur Unity. Ce jeu mobile propose une grille hexagonale au tour par tour qui permet aux utilisateurs de rivaliser stratégiquement en utilisant des dinosaures qu'ils peuvent collecter. Il comprend des mini-jeux tels qu'un générateur de puzzles, un outil de recherche d'objets cachés et un jeu de flux de tuyaux.",
+    "6": "J'ai réalisé un projet concret tout en étudiant pour ma certification d'administrateur Salesforce. Au cours de ce projet, j'ai exploré le web-to-lead, les files d'attente, les règles de réponse automatique, les devis, le contenu AppExchange, les enquêtes, les flux et les ensembles d'autorisations utilisateur.",
+    "7": "L’une de mes plus grandes passions pendant mon temps libre est de transformer mes moments préférés en vidéos. J'ai créé de nombreuses vidéos de voyage pour moi-même, sur lesquelles je peux regarder et jouer avec différents styles et filtres vidéo, créant ainsi une sensation spécifique pour chaque vidéo. J'utilise des logiciels de modélisation 3D, After Effects et divers logiciels de montage vidéo."
+  },
+  "FilterButtons": {
+    "1": "Tout",
+    "2": "Jeux",
+    "3": "Vidéos"
   },
   "Project": {
     "1": "App de réservation de restaurant",

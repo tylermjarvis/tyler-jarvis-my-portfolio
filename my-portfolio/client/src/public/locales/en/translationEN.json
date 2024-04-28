@@ -9,7 +9,18 @@
     "1": "I have a Bachelor of Communications, majoring in Digital Media and minoring in Advertising. I first started working in Marketing and Customer Service, but have recently been travelling the world working in Australia at a resort and a cattle station. I also worked on a super yacht in the Mediterranean Sea and was the House Manager at a private estate in Guernsey. I am very good at adapting to new situation and environments and am familiar with a change in scenery. I have decided to come back to my Digital Media background and add to my skills of Web Development. When I am not coding, I am delving into the French language and keeping the time on the drums."
   },
   "Projects": {
-    "1": "Projects"
+    "1": "Projects",
+    "2": "I have completed a variety of projects, ranging from Salesforce migrations to mobile games, e-commerce and hobby sites using MERN stacks, chatbots, and drag-and-drop website builders, including Shopify, Wix, and WordPress.",
+    "3": "My front-end projects delve into CSS frameworks such as Bootstrap and Tailwind, which were utilized in designing this site. Additionally, I employ testing frameworks like Jest in conjunction with conditional statements in JavaScript. I also explore drag-and-drop website builders such as Wix, combined with Elementor.",
+    "4": "The back-end projects I have created explore the use of languages in the MERN stack, along with access authorization via Auth0 to ensure that each user sees content relevant to them. Additionally, I developed an online Japanese snacks shop that filters and sorts products based on their food category. The products are rendered using the Stripe API.",
+    "5": "I am currently in the process of creating a game using the Unity engine. This mobile game features a turn-based hexagonal grid that enables users to strategically compete using dinosaurs that they can collect. It includes mini-games such as a jigsaw puzzle builder, hidden-item finder, and a pipe-flow game.",
+    "6": "I completed a real-world project while studying for my Salesforce Administrator certification. During this project, I delved into web-to-lead, queues, auto-response rules, quotes, AppExchange content, surveys, flows, and user permission sets.",
+    "7": "One of my greatest passions in my spare time is turning my favourite moments into videos. I have created many travel videos for myself to look back on and enjoy playing around with different video styles and filters, creating a specific feel for each video. I use 3D modeling software, After Effects, and various video editing software."
+  },
+  "FilterButtons": {
+    "1": "All",
+    "2": "Games",
+    "3": "Videos"
   },
   "Project": {
     "1": "Restaurant Reservation App",

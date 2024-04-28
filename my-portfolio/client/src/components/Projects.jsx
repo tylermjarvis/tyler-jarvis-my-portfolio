@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import FilterButtons from "../js/filter-buttons";
+import { useState } from "react";
 
 // Images
 // import ProjectOne from "../images/project-page-images/project-1/restaurant-reservation-project.png";
@@ -31,16 +33,85 @@ import ProjectThirteen from "../images/project-page-images/project-13/salesforce
 
 const Projects = () => {
   const { t } = useTranslation();
+  const [selectedFilter, setSelectedFilter] = useState("all");
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
+  const handleFilterChange = (filter) => {
+    setSelectedFilter(filter);
+  };
+
   return (
-    <div className="sm:p-10">
+    <div className="sm:p-8 sm:pt-2">
+      <div className="mb-8">
+        <div
+          className="flex flex-wrap justify-center space-x-4 space-y-4 text-sm"
+          id="buttons"
+        >
+          <button
+            className={`bg-teal-500 hover:bg-teal-200 text-ivory font-bold p-2 rounded-md border-2 border-gray-600 drop-shadow-md w-28 ml-4 mt-4 button-value 
+            ${selectedFilter === "all" ? "bg-teal-800" : ""}`}
+            onClick={() => handleFilterChange("all")}
+            data-filter="all"
+          >
+            {t("FilterButtons.1")}
+          </button>
+          <button
+            className={`bg-teal-500 hover:bg-teal-200 text-ivory font-bold p-2 rounded-md border-2 border-gray-600 drop-shadow-md w-28 ml-4 mt-4 button-value 
+            ${selectedFilter === "front-end" ? "bg-teal-800" : ""}`}
+            onClick={() => handleFilterChange("front-end")}
+            data-filter="front-end"
+          >
+            Front-end
+          </button>
+          <button
+            className={`bg-teal-500 hover:bg-teal-200 text-ivory font-bold p-2 rounded-md border-2 border-gray-600 drop-shadow-md w-28 ml-4 mt-4 button-value 
+            ${selectedFilter === "back-end" ? "bg-teal-800" : ""}`}
+            onClick={() => handleFilterChange("back-end")}
+            data-filter="back-end"
+          >
+            Back-end
+          </button>
+          <button
+            className={`bg-teal-500 hover:bg-teal-200 text-ivory font-bold p-2 rounded-md border-2 border-gray-600 drop-shadow-md w-28 ml-4 mt-4 button-value 
+            ${selectedFilter === "game-design" ? "bg-teal-800" : ""}`}
+            onClick={() => handleFilterChange("game-design")}
+            data-filter="game-design"
+          >
+            {t("FilterButtons.2")}
+          </button>
+          <button
+            className={`bg-teal-500 hover:bg-teal-200 text-ivory font-bold p-2 rounded-md border-2 border-gray-600 drop-shadow-md w-28 ml-4 mt-4 button-value 
+            ${selectedFilter === "salesforce" ? "bg-teal-800" : ""}`}
+            onClick={() => handleFilterChange("salesforce")}
+            data-filter="salesforce"
+          >
+            Salesforce
+          </button>
+          <button
+            className={`bg-teal-500 hover:bg-teal-200 text-ivory font-bold p-2 rounded-md border-2 border-gray-600 drop-shadow-md w-28 ml-4 mt-4 button-value 
+            ${selectedFilter === "videos" ? "bg-teal-800" : ""}`}
+            onClick={() => handleFilterChange("videos")}
+            data-filter="videos"
+          >
+            {t("FilterButtons.3")}
+          </button>
+          <FilterButtons />
+        </div>
+        <p className="text-gray-600 text-base p-2 text-center mb-4 mt-5">
+          {selectedFilter === "all" && t("Projects.2")}
+          {selectedFilter === "front-end" && t("Projects.3")}
+          {selectedFilter === "back-end" && t("Projects.4")}
+          {selectedFilter === "game-design" && t("Projects.5")}
+          {selectedFilter === "salesforce" && t("Projects.6")}
+          {selectedFilter === "videos" && t("Projects.7")}
+        </p>
+      </div>
       <ul className="flex flex-row gap-4 flex-wrap justify-center">
         {/* Reservationizr */}
-        <li className="">
+        <li className="list-item back-end">
           <div className="block rounded-lg bg-blue-gray-50 bg-opacity-80 border-2 border-gray-400 hover:scale-105 transition duration-500 cursor-pointer object-cover filter hover:brightness-75">
             <Link
               to="/projects/Reservationizr App"
@@ -72,7 +143,7 @@ const Projects = () => {
         </li>
 
         {/* Bootstrap */}
-        <li className="">
+        <li className="list-item front-end">
           <div className="block rounded-lg bg-blue-gray-50 bg-opacity-80 border-2 border-gray-400 hover:scale-105 transition duration-500 cursor-pointer object-cover filter hover:brightness-75">
             <Link
               to="/projects/Boostrap Portfolio"
@@ -104,7 +175,7 @@ const Projects = () => {
         </li>
 
         {/* React Online Shop */}
-        <li className="">
+        <li className="list-item back-end">
           <div className="block rounded-lg bg-blue-gray-50 bg-opacity-80 border-2 border-gray-400 hover:scale-105 transition duration-500 cursor-pointer object-cover filter hover:brightness-75">
             <Link to="/projects/Jap Snack" className="" onClick={scrollToTop}>
               <div className="overflow-hidden bg-cover bg-no-repeat">
@@ -132,7 +203,7 @@ const Projects = () => {
         </li>
 
         {/* Chat Bot */}
-        <li className="">
+        <li className="list-item front-end">
           <div className="block rounded-lg bg-blue-gray-50 bg-opacity-80 border-2 border-gray-400 hover:scale-105 transition duration-500 cursor-pointer object-cover filter hover:brightness-75">
             <Link
               to="/projects/Adrenaline Bot"
@@ -164,7 +235,7 @@ const Projects = () => {
         </li>
 
         {/* Unity Game */}
-        <li className="">
+        <li className="list-item game-design">
           <div className="block rounded-lg bg-blue-gray-50 bg-opacity-80 border-2 border-gray-400 hover:scale-105 transition duration-500 cursor-pointer object-cover filter hover:brightness-75">
             <Link
               to="/projects/Mesozoic 3023"
@@ -196,7 +267,7 @@ const Projects = () => {
         </li>
 
         {/* Glowing Text */}
-        <li className="">
+        <li className="list-item videos">
           <div className="block rounded-lg bg-blue-gray-50 bg-opacity-80 border-2 border-gray-400 hover:scale-105 transition duration-500 cursor-pointer object-cover filter hover:brightness-75">
             <Link
               to="/projects/Glowing Text"
@@ -228,7 +299,7 @@ const Projects = () => {
         </li>
 
         {/* Space Ship Title Screen */}
-        <li className="">
+        <li className="list-item videos">
           <div className="block rounded-lg bg-blue-gray-50 bg-opacity-80 border-2 border-gray-400 hover:scale-105 transition duration-500 cursor-pointer object-cover filter hover:brightness-75">
             <Link
               to="/projects/Spaceship Title Screen"
@@ -260,7 +331,7 @@ const Projects = () => {
         </li>
 
         {/* 3D Projection */}
-        <li className="">
+        <li className="list-item videos">
           <div className="block rounded-lg bg-blue-gray-50 bg-opacity-80 border-2 border-gray-400 hover:scale-105 transition duration-500 cursor-pointer object-cover filter hover:brightness-75">
             <Link
               to="/projects/3D Projection"
@@ -292,7 +363,7 @@ const Projects = () => {
         </li>
 
         {/* Unity Game Intro */}
-        <li className="">
+        <li className="list-item videos">
           <div className="block rounded-lg bg-blue-gray-50 bg-opacity-80 border-2 border-gray-400 hover:scale-105 transition duration-500 cursor-pointer object-cover filter hover:brightness-75">
             <Link
               to="/projects/Unity Game Intro"
@@ -324,7 +395,7 @@ const Projects = () => {
         </li>
 
         {/* Egypt Video */}
-        <li className="">
+        <li className="list-item videos">
           <div className="block rounded-lg bg-blue-gray-50 bg-opacity-80 border-2 border-gray-400 hover:scale-105 transition duration-500 cursor-pointer object-cover filter hover:brightness-75">
             <Link to="/projects/Egypt Video" className="" onClick={scrollToTop}>
               <div className="overflow-hidden bg-cover bg-no-repeat">
@@ -352,7 +423,7 @@ const Projects = () => {
         </li>
 
         {/* Elementor Project */}
-        <li className="">
+        <li className="list-item front-end">
           <div className="block rounded-lg bg-blue-gray-50 bg-opacity-80 border-2 border-gray-400 hover:scale-105 transition duration-500 cursor-pointer object-cover filter hover:brightness-75">
             <Link
               to="/projects/Elementor Site"
@@ -384,7 +455,7 @@ const Projects = () => {
         </li>
 
         {/* Capstone Project */}
-        <li className="">
+        <li className="list-item front-end">
           <div className="block rounded-lg bg-blue-gray-50 bg-opacity-80 border-2 border-gray-400 hover:scale-105 transition duration-500 cursor-pointer object-cover filter hover:brightness-75">
             <Link
               to="/projects/Capstone Project"
@@ -416,7 +487,7 @@ const Projects = () => {
         </li>
 
         {/* Salesforce MasterSeal Documentation */}
-        <li className="">
+        <li className="list-item salesforce">
           <div className="block rounded-lg bg-blue-gray-50 bg-opacity-80 border-2 border-gray-400 hover:scale-105 transition duration-500 cursor-pointer object-cover filter hover:brightness-75">
             <Link
               to="/projects/Salesfroce MasterSeal"
