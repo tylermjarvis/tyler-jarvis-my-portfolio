@@ -8,9 +8,9 @@ import GitHub from "../images/project-page-images/github-white.png";
 import ExternalLink from "../images/project-page-images/external-link-white.png";
 
 // Images
-import ProjectThreeImageOne from "../images/project-page-images/project-3/project3-jap-snack-homepage.png";
-import ProjectThreeImageTwo from "../images/project-page-images/project-3/project3-jap-snack-filter.png";
-import ProjectThreeImageThree from "../images/project-page-images/project-3/project3-jap-snack-stripe.png";
+import ProjectThreeImageOne from "../images/project-page-images/project-3/project3-jap-snack-homepage.webp";
+import ProjectThreeImageTwo from "../images/project-page-images/project-3/project3-jap-snack-filter.webp";
+import ProjectThreeImageThree from "../images/project-page-images/project-3/project3-jap-snack-stripe.webp";
 
 const Project = () => {
   const { t } = useTranslation();

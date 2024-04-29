@@ -8,10 +8,10 @@ import GitHub from "../images/project-page-images/github-white.png";
 import ExternalLink from "../images/project-page-images/external-link-white.png";
 
 // Images
-import ProjectOneImageOne from "../images/project-page-images/project-1/reservationizr-desktop-homepage.png";
-import ProjectOneImageTwo from "../images/project-page-images/project-1/reservationizr-desktop-auth0.png";
-import ProjectOneImageThree from "../images/project-page-images/project-1/reservationizr-desktop-create-reservation.png";
-import ProjectOneImageFour from "../images/project-page-images/project-1/reservationizr-desktop-reservations.png";
+import ProjectOneImageOne from "../images/project-page-images/project-1/reservationizr-desktop-homepage.webp";
+import ProjectOneImageTwo from "../images/project-page-images/project-1/reservationizr-desktop-auth0.webp";
+import ProjectOneImageThree from "../images/project-page-images/project-1/reservationizr-desktop-create-reservation.webp";
+import ProjectOneImageFour from "../images/project-page-images/project-1/reservationizr-desktop-reservations.webp";
 
 const Project = () => {
   const { t } = useTranslation();

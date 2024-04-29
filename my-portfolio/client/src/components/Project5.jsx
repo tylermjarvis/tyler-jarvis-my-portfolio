@@ -3,7 +3,7 @@ import NavBar from "./NavBar";
 import { useTranslation } from "react-i18next";
 
 // Images
-import ProjectFiveImageOne from "../images/project-page-images/project-5/mesozoic-3023-project-final-image-size.png";
+import ProjectFiveImageOne from "../images/project-page-images/project-5/mesozoic-3023-project-final-image-size.webp";
 
 const Project = () => {
   const { t } = useTranslation();
@@ -47,7 +47,7 @@ const Project = () => {
           <img
             src={ProjectFiveImageOne}
             alt="Image of project - Adrenaline Bot welcome speech"
-            className="h-full w-full object cover"
+            className="h-3/4 w-3/4 lg:h-1/2 lg:w-1/2 mx-auto"
           />
         </div>
 

@@ -7,12 +7,12 @@ import { Carousel, IconButton } from "@material-tailwind/react";
 import ExternalLink from "../images/project-page-images/external-link-white.png";
 
 // Images
-import ProjectThirteenImageOne from "../images/project-page-images/project-13/salesforce-project-image.png";
-import ProjectThirteenImageTwo from "../images/project-page-images/project-13/salesforce-project-image-2.png";
-import ProjectThirteenImageThree from "../images/project-page-images/project-13/salesforce-project-image-3.png";
-import ProjectThirteenImageFour from "../images/project-page-images/project-13/salesforce-project-image-4.png";
-import ProjectThirteenImageFive from "../images/project-page-images/project-13/salesforce-project-image-5.png";
-import ProjectThirteenImageSix from "../images/project-page-images/project-13/salesforce-project-image-6.png";
+import ProjectThirteenImageOne from "../images/project-page-images/project-13/salesforce-project-image.webp";
+import ProjectThirteenImageTwo from "../images/project-page-images/project-13/salesforce-project-image-2.webp";
+import ProjectThirteenImageThree from "../images/project-page-images/project-13/salesforce-project-image-3.webp";
+import ProjectThirteenImageFour from "../images/project-page-images/project-13/salesforce-project-image-4.webp";
+import ProjectThirteenImageFive from "../images/project-page-images/project-13/salesforce-project-image-5.webp";
+import ProjectThirteenImageSix from "../images/project-page-images/project-13/salesforce-project-image-6.webp";
 
 const Project = () => {
   const { t } = useTranslation();
@@ -136,32 +136,32 @@ const Project = () => {
             <img
               src={ProjectThirteenImageOne}
               alt="Title page of technical document for MasterSeal"
-              className="h-full w-full object cover"
+              className="h-3/4 w-3/4 lg:h-1/2 lg:w-1/2 mx-auto"
             />
             <img
               src={ProjectThirteenImageTwo}
               alt="Object architecture overview and company information"
-              className="h-full w-full object cover"
+              className="h-3/4 w-3/4 lg:h-1/2 lg:w-1/2 mx-auto"
             />
             <img
               src={ProjectThirteenImageThree}
               alt="Email template and auto-response rules"
-              className="h-full w-full object cover"
+              className="h-3/4 w-3/4 lg:h-1/2 lg:w-1/2 mx-auto"
             />
             <img
               src={ProjectThirteenImageFour}
               alt="Account page layout"
-              className="h-full w-full object cover"
+              className="h-3/4 w-3/4 lg:h-1/2 lg:w-1/2 mx-auto"
             />
             <img
               src={ProjectThirteenImageFive}
               alt="Sales stage process diagram"
-              className="h-full w-full object cover"
+              className="h-3/4 w-3/4 lg:h-1/2 lg:w-1/2 mx-auto"
             />
             <img
               src={ProjectThirteenImageSix}
               alt="Service flows"
-              className="h-full w-full object cover"
+              className="h-3/4 w-3/4 lg:h-1/2 lg:w-1/2 mx-auto"
             />
           </Carousel>
         </div>

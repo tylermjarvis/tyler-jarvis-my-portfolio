@@ -17,19 +17,19 @@ import { useState } from "react";
 // import ProjectEleven from "../images/project-page-images/project-11/the-web-guys-site-long.png";
 // import ProjectTwelve from "../images/project-page-images/project-12/project-12-long.png";
 
-import ProjectOne from "../images/project-page-images/project-1/reservation-site-on-tablet.jpg";
-import ProjectTwo from "../images/project-page-images/project-2/bootstrap-site-on-tablet.jpg";
-import ProjectThree from "../images/project-page-images/project-3/jap-shop-on-phone.jpg";
-import ProjectFour from "../images/project-page-images/project-4/chatbot-on-desktop.jpg";
-import ProjectFive from "../images/project-page-images/project-5/unity-game-on-phone.jpg";
-import ProjectSix from "../images/project-page-images/project-6/project6-glowing-text-wide.png";
-import ProjectSeven from "../images/project-page-images/project-7/project7-title-screen-wide.png";
-import ProjectEight from "../images/project-page-images/project-8/project8-3D-projection-wide.png";
-import ProjectNine from "../images/project-page-images/project-9/project9-game-intro-wide.png";
-import ProjectTen from "../images/project-page-images/project-10/project10-egypt-video-wide.png";
-import ProjectEleven from "../images/project-page-images/project-11/the-web-guys-site-wide.jpg";
-import ProjectTwelve from "../images/project-page-images/project-12/capstone-on-desktop.jpg";
-import ProjectThirteen from "../images/project-page-images/project-13/salesforce-project-title.jpg";
+import ProjectOne from "../images/project-page-images/project-1/reservation-site-on-tablet.webp";
+import ProjectTwo from "../images/project-page-images/project-2/bootstrap-site-on-tablet.webp";
+import ProjectThree from "../images/project-page-images/project-3/jap-shop-on-phone.webp";
+import ProjectFour from "../images/project-page-images/project-4/chatbot-on-desktop.webp";
+import ProjectFive from "../images/project-page-images/project-5/unity-game-on-phone.webp";
+import ProjectSix from "../images/project-page-images/project-6/project6-glowing-text-wide.webp";
+import ProjectSeven from "../images/project-page-images/project-7/project7-title-screen-wide.webp";
+import ProjectEight from "../images/project-page-images/project-8/project8-3D-projection-wide.webp";
+import ProjectNine from "../images/project-page-images/project-9/project9-game-intro-wide.webp";
+import ProjectTen from "../images/project-page-images/project-10/project10-egypt-video-wide.webp";
+import ProjectEleven from "../images/project-page-images/project-11/the-web-guys-site-wide.webp";
+import ProjectTwelve from "../images/project-page-images/project-12/capstone-on-desktop.webp";
+import ProjectThirteen from "../images/project-page-images/project-13/salesforce-project-title.webp";
 
 const Projects = () => {
   const { t } = useTranslation();
@@ -47,11 +47,11 @@ const Projects = () => {
     <div className="sm:p-8 sm:pt-2">
       <div className="mb-8">
         <div
-          className="flex flex-wrap justify-center space-x-4 space-y-4 text-sm"
+          className="flex flex-wrap justify-center sm:space-x-2 md:space-x-2 space-y-4 text-sm"
           id="buttons"
         >
           <button
-            className={`bg-teal-500 hover:bg-teal-200 text-ivory font-bold p-2 rounded-md border-2 border-gray-600 drop-shadow-md w-28 ml-4 mt-4 button-value 
+            className={`bg-teal-500 hover:bg-teal-200 text-ivory font-bold p-2 rounded-md border-2 border-gray-600 drop-shadow-md w-28 ml-2 mt-4 button-value 
             ${selectedFilter === "all" ? "bg-teal-800" : ""}`}
             onClick={() => handleFilterChange("all")}
             data-filter="all"
@@ -59,7 +59,7 @@ const Projects = () => {
             {t("FilterButtons.1")}
           </button>
           <button
-            className={`bg-teal-500 hover:bg-teal-200 text-ivory font-bold p-2 rounded-md border-2 border-gray-600 drop-shadow-md w-28 ml-4 mt-4 button-value 
+            className={`bg-teal-500 hover:bg-teal-200 text-ivory font-bold p-2 rounded-md border-2 border-gray-600 drop-shadow-md w-28 ml-2 mt-4 button-value 
             ${selectedFilter === "front-end" ? "bg-teal-800" : ""}`}
             onClick={() => handleFilterChange("front-end")}
             data-filter="front-end"
@@ -67,7 +67,7 @@ const Projects = () => {
             Front-end
           </button>
           <button
-            className={`bg-teal-500 hover:bg-teal-200 text-ivory font-bold p-2 rounded-md border-2 border-gray-600 drop-shadow-md w-28 ml-4 mt-4 button-value 
+            className={`bg-teal-500 hover:bg-teal-200 text-ivory font-bold p-2 rounded-md border-2 border-gray-600 drop-shadow-md w-28 ml-2 mt-4 button-value 
             ${selectedFilter === "back-end" ? "bg-teal-800" : ""}`}
             onClick={() => handleFilterChange("back-end")}
             data-filter="back-end"
@@ -75,7 +75,7 @@ const Projects = () => {
             Back-end
           </button>
           <button
-            className={`bg-teal-500 hover:bg-teal-200 text-ivory font-bold p-2 rounded-md border-2 border-gray-600 drop-shadow-md w-28 ml-4 mt-4 button-value 
+            className={`bg-teal-500 hover:bg-teal-200 text-ivory font-bold p-2 rounded-md border-2 border-gray-600 drop-shadow-md w-28 ml-2 mt-4 button-value 
             ${selectedFilter === "game-design" ? "bg-teal-800" : ""}`}
             onClick={() => handleFilterChange("game-design")}
             data-filter="game-design"
@@ -83,7 +83,7 @@ const Projects = () => {
             {t("FilterButtons.2")}
           </button>
           <button
-            className={`bg-teal-500 hover:bg-teal-200 text-ivory font-bold p-2 rounded-md border-2 border-gray-600 drop-shadow-md w-28 ml-4 mt-4 button-value 
+            className={`bg-teal-500 hover:bg-teal-200 text-ivory font-bold p-2 rounded-md border-2 border-gray-600 drop-shadow-md w-28 ml-2 mt-4 button-value 
             ${selectedFilter === "salesforce" ? "bg-teal-800" : ""}`}
             onClick={() => handleFilterChange("salesforce")}
             data-filter="salesforce"
@@ -91,7 +91,7 @@ const Projects = () => {
             Salesforce
           </button>
           <button
-            className={`bg-teal-500 hover:bg-teal-200 text-ivory font-bold p-2 rounded-md border-2 border-gray-600 drop-shadow-md w-28 ml-4 mt-4 button-value 
+            className={`bg-teal-500 hover:bg-teal-200 text-ivory font-bold p-2 rounded-md border-2 border-gray-600 drop-shadow-md w-28 ml-2 mt-4 button-value 
             ${selectedFilter === "videos" ? "bg-teal-800" : ""}`}
             onClick={() => handleFilterChange("videos")}
             data-filter="videos"

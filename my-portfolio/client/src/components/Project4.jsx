@@ -8,10 +8,10 @@ import GitHub from "../images/project-page-images/github-white.png";
 import ExternalLink from "../images/project-page-images/external-link-white.png";
 
 // Images
-import ProjectFourImageOne from "../images/project-page-images/project-4/project4-adrenaline-bot-welcome.png";
-import ProjectFourImageTwo from "../images/project-page-images/project-4/project4-adrenaline-bot-user-name.png";
-import ProjectFourImageThree from "../images/project-page-images/project-4/project4-adrenaline-bot-bungy.png";
-import ProjectFourImageFour from "../images/project-page-images/project-4/project4-adrenaline-bot-fact.png";
+import ProjectFourImageOne from "../images/project-page-images/project-4/project4-adrenaline-bot-welcome.webp";
+import ProjectFourImageTwo from "../images/project-page-images/project-4/project4-adrenaline-bot-user-name.webp";
+import ProjectFourImageThree from "../images/project-page-images/project-4/project4-adrenaline-bot-bungy.webp";
+import ProjectFourImageFour from "../images/project-page-images/project-4/project4-adrenaline-bot-fact.webp";
 
 const Project = () => {
   const { t } = useTranslation();

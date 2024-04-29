@@ -8,10 +8,10 @@ import GitHub from "../images/project-page-images/github-white.png";
 import ExternalLink from "../images/project-page-images/external-link-white.png";
 
 // Images
-import ProjectTwoImageOne from "../images/project-page-images/project-2/project2-bootstrap-homepage.png";
-import ProjectTwoImageTwo from "../images/project-page-images/project-2/project2-bootstrap-landscaping.png";
-import ProjectTwoImageThree from "../images/project-page-images/project-2/project2-bootstrap-photography.png";
-import ProjectTwoImageFour from "../images/project-page-images/project-2/project2-bootstrap-portfolio.png";
+import ProjectTwoImageOne from "../images/project-page-images/project-2/project2-bootstrap-homepage.webp";
+import ProjectTwoImageTwo from "../images/project-page-images/project-2/project2-bootstrap-landscaping.webp";
+import ProjectTwoImageThree from "../images/project-page-images/project-2/project2-bootstrap-photography.webp";
+import ProjectTwoImageFour from "../images/project-page-images/project-2/project2-bootstrap-portfolio.webp";
 
 const Project = () => {
   const { t } = useTranslation();

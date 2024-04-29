@@ -4,13 +4,13 @@ import { useTranslation } from "react-i18next";
 import { Carousel, IconButton } from "@material-tailwind/react";
 
 // Images
-import ProjectElevenImageOne from "../images/project-page-images/project-11/the-web-guys-site-screenshot-1.png";
-import ProjectElevenImageTwo from "../images/project-page-images/project-11/the-web-guys-site-screenshot-2.png";
-import ProjectElevenImageThree from "../images/project-page-images/project-11/the-web-guys-site-screenshot-3.png";
-import ProjectElevenImageFour from "../images/project-page-images/project-11/the-web-guys-site-screenshot-4.png";
-import ProjectElevenImageFive from "../images/project-page-images/project-11/the-web-guys-site-screenshot-5.png";
-import ProjectElevenImageSix from "../images/project-page-images/project-11/the-web-guys-site-screenshot-6.png";
-import ProjectElevenImageSeven from "../images/project-page-images/project-11/the-web-guys-site-screenshot-7.png";
+import ProjectElevenImageOne from "../images/project-page-images/project-11/the-web-guys-site-screenshot-1.webp";
+import ProjectElevenImageTwo from "../images/project-page-images/project-11/the-web-guys-site-screenshot-2.webp";
+import ProjectElevenImageThree from "../images/project-page-images/project-11/the-web-guys-site-screenshot-3.webp";
+import ProjectElevenImageFour from "../images/project-page-images/project-11/the-web-guys-site-screenshot-4.webp";
+import ProjectElevenImageFive from "../images/project-page-images/project-11/the-web-guys-site-screenshot-5.webp";
+import ProjectElevenImageSix from "../images/project-page-images/project-11/the-web-guys-site-screenshot-6.webp";
+import ProjectElevenImageSeven from "../images/project-page-images/project-11/the-web-guys-site-screenshot-7.webp";
 
 const Project = () => {
   const { t } = useTranslation();

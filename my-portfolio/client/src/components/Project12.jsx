@@ -8,11 +8,11 @@ import GitHub from "../images/project-page-images/github-white.png";
 import ExternalLink from "../images/project-page-images/external-link-white.png";
 
 // Images
-import ProjectTwelveImageOne from "../images/project-page-images/project-12/home-and-chatbot.png";
-import ProjectTwelveImageTwo from "../images/project-page-images/project-12/gardening-example.png";
-import ProjectTwelveImageThree from "../images/project-page-images/project-12/enquiry-form.png";
-import ProjectTwelveImageFour from "../images/project-page-images/project-12/portfolio-section.png";
-import ProjectTwelveImageFive from "../images/project-page-images/project-12/portfolio-page.png";
+import ProjectTwelveImageOne from "../images/project-page-images/project-12/home-and-chatbot.webp";
+import ProjectTwelveImageTwo from "../images/project-page-images/project-12/gardening-example.webp";
+import ProjectTwelveImageThree from "../images/project-page-images/project-12/enquiry-form.webp";
+import ProjectTwelveImageFour from "../images/project-page-images/project-12/portfolio-section.webp";
+import ProjectTwelveImageFive from "../images/project-page-images/project-12/portfolio-page.webp";
 
 const Project = () => {
   const { t } = useTranslation();
@@ -156,27 +156,27 @@ const Project = () => {
             <img
               src={ProjectTwelveImageOne}
               alt="Desktop image of project - homepage - hero and navbar"
-              className="h-full w-full object cover"
+              className="h-3/4 w-3/4 lg:h-1/2 lg:w-1/2 mx-auto"
             />
             <img
               src={ProjectTwelveImageTwo}
               alt="Desktop image of project - about section"
-              className="h-full w-full object cover"
+              className="h-3/4 w-3/4 lg:h-1/2 lg:w-1/2 mx-auto"
             />
             <img
               src={ProjectTwelveImageThree}
               alt="Desktop image of project - features"
-              className="h-full w-full object cover"
+              className="h-3/4 w-3/4 lg:h-1/2 lg:w-1/2 mx-auto"
             />
             <img
               src={ProjectTwelveImageFour}
               alt="Desktop image of project - latest news"
-              className="h-full w-full object cover"
+              className="h-3/4 w-3/4 lg:h-1/2 lg:w-1/2 mx-auto"
             />
             <img
               src={ProjectTwelveImageFive}
               alt="Desktop image of project - footer"
-              className="h-full w-full object cover"
+              className="h-3/4 w-3/4 lg:h-1/2 lg:w-1/2 mx-auto"
             />
           </Carousel>
         </div>
